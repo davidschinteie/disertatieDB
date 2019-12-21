@@ -1,0 +1,500 @@
+DataVizita,OraIntrare,NumePacient,PrenumePacient,NumeMedic,PrenumeMedic,Cabinet
+22/04/2005,01:52:34,Huruiala,Carmen Alexandra,Garbeata,Panait,Cabinet 1
+05/12/2005,04:16:02,Schornig,Petre,Rusu,Dragos Mihai,Cabinet 2
+07/11/2004,11:24:27,Graur,Alexandra-Cristina,Soarece,Dan-Cristian,Cabinet 4
+07/05/2008,06:35:44,Rudnitchi,Marian,Galescu,George Valentin,Cabinet 5
+19/02/2007,05:42:00,Anghel,Alin-Ilie,Galescu,George Valentin,Cabinet 9
+30/04/2006,14:46:01,Ristea,Ioan Fanica,Vutan,Cristina Alexandra,Cabinet 8
+30/11/2007,00:00:52,Hiliti,Nicolae,Soarece,Dan-Cristian,Cabinet 7
+03/10/2004,13:55:35,Beizdadea,Cristiana,Papuc,Raducu-Liviu,Cabinet 6
+04/01/2009,23:50:08,Clitman,Jean,Paius,Ioana,Cabinet 8
+09/02/2008,13:49:48,Tudorica,Crsitian,Cucuiu,Nutu,Cabinet 6
+13/01/2009,17:57:26,Robu,Simona Cristina,Briceag,Anca Stefana,Cabinet 10
+30/07/2009,04:36:04,Novac,Costel,Grigoraş,Golban,Cabinet 2
+27/10/2006,11:01:06,Mihalea,Radu Florin,Ojog,Sabin,Cabinet 4
+20/06/2009,22:35:44,Verciuc,Nicu Adrian,Hidec,Mihail - Marcel,Cabinet 9
+02/05/2007,01:59:30,Jianu,Stefan-Calin,Evdochim,Liviu Eugen,Cabinet 7
+06/01/2007,18:23:20,Nan,Tolontan,Buia,Tache,Cabinet 5
+16/07/2005,06:58:02,Achim,Andrei Cosmin,Geanta,Dragos Madalin,Cabinet 10
+12/12/2008,18:32:54,Ocica,Fecioru,Blindu,Danut Valentin,Cabinet 9
+30/05/2005,05:38:23,Tanvuia,Alexandru - Cristian,Banica,Danut Valentin,Cabinet 8
+29/09/2008,08:53:20,Feldman,Petre,Iconaru,Dragos,Cabinet 10
+01/04/2006,20:18:11,Coman,Alexandru Alin,Ene,Adrian-Stefan,Cabinet 3
+01/10/2007,14:00:25,Dumitrescu,Doirian,Rildo,Alex,Cabinet 3
+07/05/2008,19:11:30,Stroilescu,Violeta Gabriela,Vladescu,Barlea,Cabinet 3
+07/05/2005,23:56:12,Mihaita,Andreea-Oana,Ailoaie,Aurel Mihai,Cabinet 3
+19/09/2008,19:58:04,Claudia,Florian-Cosmin,Răzvan Anton,Iulia Hortensia,Cabinet 5
+04/12/2007,16:37:18,Bulete,Bilc,Hidec,Mihail - Marcel,Cabinet 7
+12/02/2008,23:52:07,Vladescu,Sorin Eugen,Mustatea,Gedo,Cabinet 6
+10/11/2007,21:15:22,Bardan,Lutea,Caia,Costin-Ciprian,Cabinet 1
+31/08/2008,00:21:33,Dulea,Stefan Alexndru,Leuciuc,Tahoun,Cabinet 8
+20/02/2007,02:19:19,Niculescu,Dan Constantin,Postelnicu,Stefan Alexandru,Cabinet 4
+20/03/2006,04:29:24,Slavic,Ciprian Costel,Dragomanu,Mitrut,Cabinet 1
+20/02/2007,16:32:03,Buia,Denisa-Elena,Stanca,Alin Petrişor,Cabinet 6
+12/11/2007,18:02:32,Caldararu,Ana Maria Alexandra,Banica,Danut Valentin,Cabinet 9
+03/05/2006,14:21:07,Jarlaeanu,Aurel Mihai,Vladescu,Barlea,Cabinet 6
+28/07/2006,07:45:49,Vascan,Adrian Dragos,Hodan,Ionut Mihai,Cabinet 7
+22/05/2009,12:54:04,Mateizer,Dragos Marian,Dragomanu,Mitrut,Cabinet 5
+02/07/2008,20:06:02,Ciuchi,Sânziana-Elena,Rosca-Neranzi,Aurelia Miharla,Cabinet 4
+03/05/2009,13:29:54,Claudia,Necula,Donca,Cornelia-Ana,Cabinet 10
+23/05/2008,02:55:42,Gabriel,Liviu Daniel,Galescu,George Valentin,Cabinet 9
+14/06/2007,11:56:25,Mutulescu,Gabriela Violeta,Copae,Oprea,Cabinet 7
+17/08/2008,12:33:44,Istudor,Nicusor-Dorinel,Petica,Titus,Cabinet 4
+18/01/2005,07:39:28,Vladuta,Laura,Giaba,Laurentiu-George,Cabinet 2
+21/02/2006,03:36:29,Pandele,Daniel,Hotoi,Dragos Alin,Cabinet 5
+18/04/2007,06:30:58,Mihalache,Andrei - Willi,Pantea,Ionut Silviu,Cabinet 2
+25/02/2006,00:54:30,Boca,Irina-Alexandra,Condrea,Nutu,Cabinet 5
+17/01/2006,05:09:42,Adochitei,Andreea-Elena,Geanta,Dragos Madalin,Cabinet 3
+28/09/2007,20:13:47,Dulgheru,Gabriel,Răzvan Anton,Iulia Hortensia,Cabinet 6
+02/09/2007,11:39:52,Stoleru,Aurel Florian,Buia,Tache,Cabinet 4
+25/09/2005,11:23:04,Bordea,Radu Florin,Tanasa,Alexandru-Ovidiu,Cabinet 2
+26/09/2008,10:10:30,Hozoc,Nicu Adrian,Borza,Marius Florian,Cabinet 1
+13/10/2007,01:05:34,Acatrinei,Monica,Borza,Marius Florian,Cabinet 1
+16/05/2007,01:54:00,Voiteanu,Cosmin - Cristian,Dvornic,Mihai Serban,Cabinet 10
+29/04/2009,16:30:37,Gherman,Alina Elena,Dragan,Mihai Leonard,Cabinet 7
+29/09/2008,18:36:48,Campian,Bogdan Adrian,Cruceru,Ioana-Loredana,Cabinet 10
+04/03/2009,10:22:20,Handra,Aurelian-Stefan,Chioveanu,Lavinia,Cabinet 1
+04/05/2007,01:39:43,Virgolici,Boby,Tanasa,Alexandru-Ovidiu,Cabinet 4
+14/12/2007,19:11:43,Branza,Adrian Teodor,Bardan,Sorin,Cabinet 9
+18/04/2006,17:26:31,Niculescu,Laura Florina,Ojog,Sabin,Cabinet 1
+07/10/2006,18:26:31,Bica,Vasile Andrei,Buia,Tache,Cabinet 6
+20/02/2009,19:29:18,Licu,Adrian Ionuţ,Iulian,Gabriel George,Cabinet 6
+08/08/2006,14:40:13,Vutan,Sandrino-Gabriel,Iordan,Romeo,Cabinet 1
+03/09/2008,04:27:31,Lichiardopol,Alexandru Cătălin,Petica,Titus,Cabinet 5
+12/11/2006,03:49:36,Constandache,Georgian-Marian,Dragomanu,Mitrut,Cabinet 9
+07/12/2006,16:14:53,Chihaia,Cornelia,Balaceanu,Mihaela Lucia,Cabinet 6
+18/03/2009,18:12:05,Aciu,Stefan-Daniel,Simu,Ion-Alexandru,Cabinet 7
+16/05/2005,00:54:11,Lentoiu,Panait,Gabriel Mihai,Mihai Leonard,Cabinet 1
+27/03/2007,06:29:39,Zoltan,Anca-Andreea,Hristea,Maria-Daniela,Cabinet 9
+23/12/2006,21:44:35,Ceausu,Malina,Cretu,Costel Lucian,Cabinet 3
+28/03/2009,18:57:31,Placinta,Asandei,Barbulescu,Alexandru-Mihail,Cabinet 8
+28/06/2008,18:36:43,Cirstea,Dragos-Ionuţ,Ciurchea,George Gabriel,Cabinet 7
+23/06/2008,15:17:05,Stumbea,Cristian Andrei,Geanta,Dragos Madalin,Cabinet 1
+12/09/2005,23:21:29,Ionut,Viorel,Plesita,Andrei Gabriel,Cabinet 9
+23/02/2006,19:11:52,Ganga,Nistor,Hristea,Maria-Daniela,Cabinet 1
+20/05/2009,00:53:55,Magla,Cristina Elena,Dragan,Mihai Leonard,Cabinet 1
+30/03/2008,13:00:52,Joian,Alexandra - Corina,Ene,Adrian-Stefan,Cabinet 6
+10/08/2006,20:50:32,Slavic,Violeta Gabriela,Răzvan Anton,Aura,Cabinet 2
+28/09/2006,03:00:41,Siminoc,Cosmin-Ioan,Iulian,Gabriel George,Cabinet 5
+23/02/2009,14:26:09,Birgaoanu-Acaei,Luigi,Ticu,Simona,Cabinet 9
+17/07/2005,23:50:09,Pantea,Panait,Tanasa,Alexandru-Ovidiu,Cabinet 8
+02/04/2005,10:22:28,Ionut,Crintea,Dvornic,Mihai Serban,Cabinet 10
+03/03/2005,16:22:31,Balasel,Radu-Virgil,Caia,Costin-Ciprian,Cabinet 2
+17/10/2006,13:36:31,Patrascu,Razvan-Eugen,Plesita,Andrei Gabriel,Cabinet 5
+08/09/2005,09:42:15,Calugaru,Daniel - Claudiu,Grigoraş,Golban,Cabinet 9
+18/09/2004,19:23:43,Pacurar,Bogdan-Leonard,Tanasa,Alexandru-Ovidiu,Cabinet 2
+02/11/2006,11:45:00,Cirstea,Mara Elena,Dohan,Vincenţiu Mihail,Cabinet 3
+04/11/2008,09:31:20,Cernica,Vlad George,Pantea,Ionut Silviu,Cabinet 3
+24/05/2006,03:56:20,Antal,Serghei,Dragomanu,Mitrut,Cabinet 8
+19/09/2008,23:29:49,Radulescu-Stinga,Valentin Cosmin,Răzvan Anton,Iulia Hortensia,Cabinet 5
+11/12/2005,08:02:19,Bradeanu,Garbia,Tatasel,Alexandru-Ovidiu,Cabinet 4
+17/02/2008,06:06:57,Baltatescu,Nicolae Robert,Buzea,Corneliu Mihai,Cabinet 9
+08/11/2007,05:54:09,Hanches,Crsitian,Ceafalau,Vincenţiu Mihail,Cabinet 1
+03/08/2006,07:35:42,Corodeanu,Mircea Alexandru,Ene,Adrian-Stefan,Cabinet 9
+10/03/2009,16:30:41,Gabriel Mihai,Vasile-Alexandru,Hidec,Mihail - Marcel,Cabinet 6
+15/09/2008,21:19:55,Marinache,Mihai Florian,Petica,Titus,Cabinet 4
+11/04/2005,20:59:02,Giaba,Sergiu Cătălin,Condrea,Nutu,Cabinet 7
+23/12/2005,21:11:43,Nena,Irina Laura,Plesita,Andrei Gabriel,Cabinet 10
+10/03/2005,22:36:13,Lixandru,Paul - Vlad,Evdochim,Liviu Eugen,Cabinet 10
+30/04/2008,10:00:51,Sipu,Luiza,Grigoraş,Golban,Cabinet 3
+14/10/2007,15:56:53,Poncea,Sergiu,Donca,Cornelia-Ana,Cabinet 4
+30/07/2008,15:56:29,Udubasa,Cristian Ioan,Pisica,Ciprian Octavian,Cabinet 5
+20/05/2005,06:23:07,Minich,Alexandru Vlad,Simu,Ion-Alexandru,Cabinet 3
+05/01/2009,12:39:14,Fetic,Alexandra Florina,Sterian,Gologaneanu,Cabinet 4
+29/03/2008,06:35:53,Drogeanu,Violeta Gabriela,Hriscanu,Iulian-Cosmin,Cabinet 10
+12/03/2008,08:18:42,Babiciu,Mihai-Daniel,Rusu,Dragos Mihai,Cabinet 2
+27/09/2007,15:42:15,Ceica,Bogdan-Daniel,Hristea,Maria-Daniela,Cabinet 8
+19/04/2007,02:31:17,Handra,Aurelian-Stefan,Cretu,Costel Lucian,Cabinet 4
+13/01/2008,07:09:23,Domsa,Livius,Jucan,Andrei Gabriel,Cabinet 10
+08/05/2009,09:05:25,Inscriere,Ionelia Iuliana,Bunica,Mihai-Daniel,Cabinet 4
+02/03/2006,23:09:25,Surdu,Alexandru Ovidiu ,Pisica,Ciprian Octavian,Cabinet 2
+18/02/2005,21:47:27,Biter,Denisa-Elena,Predescu,Gheorghe Adrian,Cabinet 5
+11/01/2009,15:29:04,Mazalu,Doirian,Gabriel Mihai,Mihai Leonard,Cabinet 1
+12/12/2005,13:17:55,Caba ,Ioan,Slatineanu,Marius Adrian,Cabinet 10
+31/07/2009,03:12:50,Verciuc,Lori,Buia,Tache,Cabinet 7
+02/07/2008,10:57:11,Buia,Bianca,Dragomanu,Mitrut,Cabinet 8
+03/10/2007,21:06:36,Dulharu,De Test,Ciurchea,George Gabriel,Cabinet 8
+23/08/2009,02:14:37,Manailescu,Mihail Bogdan,Caia,Costin-Ciprian,Cabinet 9
+25/01/2005,05:19:36,Ciprian,Paula,Iconaru,Dragos,Cabinet 9
+18/06/2009,11:27:33,Ivascu,Ioana-Lorina,Borza,Marius Florian,Cabinet 9
+13/01/2005,23:31:59,Kerekes,Ciprian,Hriscanu,Iulian-Cosmin,Cabinet 10
+28/12/2005,07:45:28,Bunica,Adrian Bogdan,Pantea,Ionut Silviu,Cabinet 4
+26/11/2005,00:15:16,Buia,Danut Valentin,Silviu ,Adrian Ionut,Cabinet 3
+22/02/2005,05:41:45,Marinache,Dragos- Corneliu,Pantea,Ionut Silviu,Cabinet 4
+03/09/2004,17:14:13,Mustata,Mirela,Copae,Oprea,Cabinet 4
+23/02/2009,11:26:10,Patrascu,Florian,Caia,Costin-Ciprian,Cabinet 5
+05/01/2007,15:16:20,Muscă,Radu Florin,Gabriel Mihai,Mihai Leonard,Cabinet 7
+12/10/2008,22:26:10,Spânu,Claudiu Florin,Jucan,Andrei Gabriel,Cabinet 10
+21/11/2007,03:32:19,Barjovanu,Denisa-Elena,Ailoaie,Aurel Mihai,Cabinet 6
+04/10/2006,14:27:23,Marinescu,Kenibasov,Borza,Marius Florian,Cabinet 1
+05/08/2008,17:24:05,Hairedin,Marian Florin,Pintea,Bogdan Marius,Cabinet 10
+26/06/2006,07:11:49,Pisla,Gedo,Tatasel,Alexandru-Ovidiu,Cabinet 10
+14/02/2009,17:56:11,Draguleasa,Eduard Mihail,Vutan,Cristina Alexandra,Cabinet 4
+02/12/2004,05:22:45,Bunoaica,Sânziana-Elena,Petica,Titus,Cabinet 4
+12/01/2005,03:00:59,Noaghea,Mihail-Iulian,Borza,Marius Florian,Cabinet 2
+09/12/2008,20:35:20,Petica,Cornea,Tatasel,Alexandru-Ovidiu,Cabinet 5
+06/03/2008,06:29:43,AlexandruMedesan,Cristian - Andrei,Buzea,Corneliu Mihai,Cabinet 6
+21/12/2008,09:31:06,Bina,Raluca,Garbeata,Panait,Cabinet 4
+21/01/2008,18:06:43,Mihaita,Octavian,Gabriel Mihai,Mihai Leonard,Cabinet 3
+08/10/2007,18:01:22,Lichi,Mirela Rocxana,Dragan,Mihai Leonard,Cabinet 7
+12/06/2008,03:49:37,Fecioru,Kenibasov,Dvornic,Mihai Serban,Cabinet 8
+27/02/2006,07:49:54,Bleanda-Mogosanu,Parasca,Copae,Toma,Cabinet 7
+02/01/2005,08:26:49,Buznosu,Daniel - Claudiu,Iulian,Gabriel George,Cabinet 9
+08/09/2008,04:29:24,Ghimpu,Alexandra Raluca,Simu,Ion-Alexandru,Cabinet 8
+29/11/2006,06:25:41,Cortojan,Cristina,Capatina,George-Mihail,Cabinet 1
+29/03/2009,09:09:57,Abramov,Luigi,Balaceanu,Mihaela Lucia,Cabinet 1
+20/02/2009,18:49:19,Giurgiu,Carlugea,Tatasel,Alexandru-Ovidiu,Cabinet 4
+13/04/2006,14:13:35,Viciu,Alina Mihaela,Capatina,George-Mihail,Cabinet 4
+15/02/2008,14:25:29,Copae,Olga,Silviu ,Adrian Ionut,Cabinet 7
+26/09/2005,20:01:22,Corbu,Livius,Geanta,Dragos Madalin,Cabinet 2
+28/06/2006,10:28:06,Borza,Bogdan Ionuţ,Iordan,Romeo,Cabinet 7
+11/07/2006,23:55:38,Vutan,Cătălin Florin,Pantea,Ionut Silviu,Cabinet 9
+20/02/2006,08:44:15,Gruia,Robert,Condrea,Nutu,Cabinet 3
+01/08/2005,06:11:38,Stoleru,Mihai - Ionuţ,Mazare,Liviu-Petru,Cabinet 8
+27/10/2005,14:34:05,Mazare,Alin-Ilie,Ojog,Sabin,Cabinet 10
+16/10/2006,21:10:21,Istrate,Nicolae Petrut,Condrea,Nutu,Cabinet 8
+13/04/2006,03:12:25,Galescu,Craita,Pantea,Ionut Silviu,Cabinet 4
+14/01/2005,04:58:49,Tausancea,Ioan Andrei,Ceausu,Vasiliu,Cabinet 3
+26/03/2009,14:13:02,Dupir,Nicolae Cristian,Banica,Danut Valentin,Cabinet 5
+01/05/2006,11:38:06,Mutulescu,Gabriela Violeta,Borza,Marius Florian,Cabinet 8
+21/06/2008,14:18:40,Tranca,Ioana Mihaela,Ojog,Sabin,Cabinet 4
+08/09/2006,06:41:35,Zabava,Andreas,Teodor,Catalina Ioana,Cabinet 5
+06/05/2008,03:47:35,Constandache,Cioaca,Slatineanu,Marius Adrian,Cabinet 3
+18/05/2006,08:43:37,Chiriac,Veronica,Blindu,Danut Valentin,Cabinet 10
+14/01/2009,07:36:33,Stancia,Cătălina Ioana,Borza,Marius Florian,Cabinet 10
+19/05/2008,13:41:51,Turiga,Veronica Flavia,Briceag,Anca Stefana,Cabinet 5
+18/08/2006,01:13:05,Leuciuc,Claudia,Capatina,George-Mihail,Cabinet 9
+01/03/2007,10:01:45,Gigirtu,Mihai Marius,Petica,Titus,Cabinet 7
+08/11/2004,08:22:35,Vizireanu,Iulian-Daniel,Postelnicu,Habib,Cabinet 1
+09/03/2008,23:57:23,Ludu,Marius Adrian,Ojog,Sabin,Cabinet 7
+12/07/2008,12:21:09,Birgaoanu-Acaei,Bogdan Cosmin,Ograzeanu,Cristina Alexandra,Cabinet 10
+02/07/2009,12:34:28,Pricope,Cristian - Mihai,Sterian,Gologaneanu,Cabinet 8
+03/10/2006,23:12:47,Denca,Ionuţ-Razvan,Ceausu,Vasiliu,Cabinet 5
+29/02/2008,00:04:37,Mircioiu,Silviu Adrian,Leuciuc,Tahoun,Cabinet 3
+23/07/2006,12:53:55,Hava,Jean,Donca,Cornelia-Ana,Cabinet 3
+03/10/2005,09:07:56,Angelescu,Laurentiu-George,Pintea,Bogdan Marius,Cabinet 1
+15/07/2006,00:10:13,Caia,Doirian,Dvornic,Mihai Serban,Cabinet 10
+30/11/2007,21:04:29,Niculcea,Cătălina Ioana,Dragan,Mihai Leonard,Cabinet 10
+26/03/2005,06:21:50,Dupir,Nicolae Cristian,Vladescu,Barlea,Cabinet 6
+22/08/2008,01:22:24,Minescu,Fareta,Gabriel Mihai,Andreeea,Cabinet 9
+23/04/2006,07:27:35,Calugaru,Barlea,Caia,Costin-Ciprian,Cabinet 9
+20/11/2008,17:37:14,Sterian,Violeta Gabriela,Ene,Adrian-Stefan,Cabinet 6
+21/12/2005,04:28:19,Calugaru,Alina Cristina,Troncea,Dragos-Florian,Cabinet 4
+16/07/2005,12:38:28,Grigor,Dan Cosmin,Hriscanu,Iulian-Cosmin,Cabinet 2
+15/02/2008,19:57:25,Bratunov,Alexandru Dan,Calance,Alin-Alexandru,Cabinet 2
+15/06/2007,20:35:26,Mihaileanu,Magda Marina,Hidec,Mihail - Marcel,Cabinet 8
+20/08/2007,01:46:41,Zegheanu,Iulia Hortensia,Hriscanu,Iulian-Cosmin,Cabinet 4
+17/01/2009,16:45:05,Tanvuia,Alexandru - Cristian,Soarece,Dan-Cristian,Cabinet 3
+27/01/2005,09:12:42,Ciolpan,Prenume,Galescu,George Valentin,Cabinet 1
+06/07/2007,07:38:52,Aaron,Elama,Calance,Alin-Alexandru,Cabinet 7
+18/08/2008,01:05:06,Matache,Remus - Gabriel,Slatineanu,Marius Adrian,Cabinet 1
+03/02/2005,00:30:39,Vaduvoiu,Alexandra - Corina,Plesita,Andrei Gabriel,Cabinet 5
+03/08/2006,11:14:29,Ungureanu,Marian Constantin,Popîrlan,Laurentiu,Cabinet 5
+13/12/2005,06:52:56,Formagiu,Ovidiu - Cosmin,Dragan,Mihai Leonard,Cabinet 4
+17/04/2005,19:07:15,Istrate,Nicolae Petrut,Jucan,Andrei Gabriel,Cabinet 8
+29/04/2006,15:01:58,Ghidan,Alex,Bunica,Mihai-Daniel,Cabinet 6
+09/07/2007,21:26:34,Clitman,Jean,Vladescu,Barlea,Cabinet 9
+25/10/2008,07:46:18,Mihaita,Aurelian Andrei,Dohan,Vincenţiu Mihail,Cabinet 9
+16/03/2005,22:57:45,Coman,Alexandru Alin,Mustatea,Gedo,Cabinet 6
+02/11/2007,14:21:12,Barac,Daniela-Alina,Iulian,Gabriel George,Cabinet 9
+16/03/2006,22:35:01,Paius,Laurentiu,Dohan,Vincenţiu Mihail,Cabinet 2
+06/10/2005,09:26:37,Dragan,Paul Cosmin,Banica,Danut Valentin,Cabinet 5
+07/02/2005,08:34:03,Butucelea,Alexandru Stefan,Ailoaie,Aurel Mihai,Cabinet 5
+09/09/2006,01:01:15,Ceausi,Constantin Cătălin,Ceafalau,Vincenţiu Mihail,Cabinet 3
+22/06/2006,12:13:59,Barbulescu,Veronica,Troncea,Dragos-Florian,Cabinet 7
+19/02/2005,17:54:33,Caramet,Valentin Sever,Pantea,Ionut Silviu,Cabinet 8
+09/05/2006,23:55:32,Harlea,Mihail-Iulian,Buzea,Corneliu Mihai,Cabinet 7
+03/03/2009,19:28:49,Cociuban,Oana Ramona,Raul,Cioaca,Cabinet 10
+18/03/2009,19:21:52,Chiriac,Adrian-Mihai,Banica,Danut Valentin,Cabinet 3
+26/06/2008,22:27:47,Petrovici,Alis,Jucan,Andrei Gabriel,Cabinet 2
+17/09/2005,00:12:14,Banici,Alexandru Lucian,Grigoraş,Golban,Cabinet 5
+17/03/2009,18:03:43,Branet,Magda Marina,Stanca,Alin Petrişor,Cabinet 3
+19/10/2006,13:05:29,Ivlev,Liviu Eugen,Gabriel Mihai,Andreeea,Cabinet 10
+17/06/2006,08:05:58,Marinache,Fanica,Dvornic,Mihai Serban,Cabinet 9
+22/12/2007,06:27:23,Viorel,Andreea-Oana,Vlad,Mircea Bogdan,Cabinet 10
+22/05/2008,05:55:27,Ocica,Laura,Popîrlan,Laurentiu,Cabinet 4
+07/06/2006,10:21:36,Floarea,Luigi,Geanta,Dragos Madalin,Cabinet 5
+04/01/2006,13:12:56,Robu,Simona Cristina,Cirstea,Dragos-Ioan,Cabinet 3
+26/06/2008,01:12:12,Boldeiu,Andrei-Stefan,Popîrlan,Laurentiu,Cabinet 2
+01/02/2007,08:05:56,Turcoman,Mihaela-Viorica,Vutan,Cristina Alexandra,Cabinet 2
+08/11/2004,05:44:16,Mandita,Petre,Răzvan Anton,Aura,Cabinet 8
+16/12/2007,02:43:14,Perianu,Ovidiu - Cosmin,Briceag,Anca Stefana,Cabinet 8
+26/01/2006,14:24:47,Voinea,Marius Gabriel,Pantea,Ionut Silviu,Cabinet 4
+31/10/2007,01:47:52,Bardan,Andrei Lucian,Nimigean,Marius Alexandru,Cabinet 1
+11/07/2005,01:47:33,Stefan,Sandrino-Gabriel,Iulian,Gabriel George,Cabinet 4
+14/03/2009,03:03:46,Tuzar,Veronica Flavia,Raul,Cioaca,Cabinet 8
+15/09/2005,03:08:04,Condrea,Sorin Ilie,Cucuiu,Nutu,Cabinet 7
+11/06/2008,22:51:15,Parasca,Denisa-Elena,Caramet,Aurel Florian,Cabinet 6
+29/05/2005,15:34:28,Dabu,Mirel Alexandru,Barbulescu,Alexandru-Mihail,Cabinet 1
+03/03/2008,04:50:05,Barac,Radoveanu,Blindu,Danut Valentin,Cabinet 7
+14/08/2007,14:06:50,Dragne,Raul,Balaceanu,Mihaela Lucia,Cabinet 2
+28/10/2006,15:25:18,Victor,Dragos-Florian,Ograzeanu,Cristina Alexandra,Cabinet 10
+27/09/2008,20:48:21,Baciu,Florina,Ojog,Sabin,Cabinet 10
+21/10/2008,11:55:41,Caracaş,Alexandr,Cretu,Costel Lucian,Cabinet 1
+15/12/2004,16:47:40,Pantea,Mara Elena,Caia,Costin-Ciprian,Cabinet 5
+12/11/2004,01:34:13,Birgaoanu-Acaei,Elena-Ramona,Donca,Cornelia-Ana,Cabinet 1
+22/08/2008,23:13:44,Scrobota,Daniel-Andrei,Tatasel,Alexandru-Ovidiu,Cabinet 10
+14/07/2006,16:52:22,Isacenco,Gheorghe,Chioveanu,Lavinia,Cabinet 1
+04/06/2009,12:49:16,Bradeanu,Adina-Ioana,Buia,Tache,Cabinet 2
+13/10/2004,12:00:48,Vasilescu,Cristinel,Hotoi,Dragos Alin,Cabinet 9
+17/03/2005,03:33:15,Ceafalau,Alexandru Dan,Dragomanu,Mitrut,Cabinet 10
+12/01/2005,13:37:27,Lixandru,Mihai Florian,Iordan,Romeo,Cabinet 10
+15/07/2005,21:44:50,Razvan Anton,Ioan-Alexandru,Grigoraş,Golban,Cabinet 4
+14/07/2006,11:36:19,Caragheorghii,Cernea,Rusu,Dragos Mihai,Cabinet 5
+14/07/2005,14:12:42,Daniela,Petru,Rosca-Neranzi,Aurelia Miharla,Cabinet 8
+30/08/2005,05:20:41,Rebrisoreanu,Ladislau,Vlad,Mircea Bogdan,Cabinet 10
+17/02/2006,06:12:35,Efrim,Gheorghe,Copae,Toma,Cabinet 3
+05/01/2006,19:36:02,Crutan,Adrian-Marian,Tanasa,Alexandru-Ovidiu,Cabinet 5
+06/02/2005,07:34:09,Iacob,Gabriel George,Cucuiu,Nutu,Cabinet 5
+22/10/2005,08:35:58,Preda,Eugen Gabriel,Caia,Costin-Ciprian,Cabinet 8
+30/03/2008,22:13:04,Bozonc,Gheorghe,Borza,Marius Florian,Cabinet 10
+01/09/2005,02:22:01,Pampu,Razvan-Eugen,Raul,Cioaca,Cabinet 10
+28/11/2004,20:02:59,Fratila,Bogdan Claudiu,Hidec,Mihail - Marcel,Cabinet 8
+20/06/2008,14:39:27,Ghita Petrache,Elama,Bunica,Mihai-Daniel,Cabinet 2
+10/10/2004,11:31:45,Rebrisoreanu,Ladislau,Hristea,Maria-Daniela,Cabinet 3
+30/03/2007,04:52:28,Condrea,Sorin Ilie,Gabriel Mihai,Mihai Leonard,Cabinet 2
+13/03/2006,19:45:50,Pricope,Stefan-Daniel,Iulian,Gabriel George,Cabinet 6
+18/02/2007,04:07:29,Cindea,Florin Eugen,Barbulescu,Alexandru-Mihail,Cabinet 9
+30/12/2008,21:44:48,Scurtu-Andrei,Ionuţ Cristian,Ailoaie,Aurel Mihai,Cabinet 2
+27/10/2006,22:20:31,Cusma,Bogdan Cosmin,Iconaru,Dragos,Cabinet 2
+29/12/2005,12:14:10,Morosanu,Marian Marius,Răzvan Anton,Aura,Cabinet 6
+23/10/2004,11:14:57,Iamandi,Danut Valentin,Tanasa,Alexandru-Ovidiu,Cabinet 9
+17/03/2007,14:42:13,Opris,Bejan,Condrea,Nutu,Cabinet 10
+18/08/2006,06:07:23,Cernica,Adina-Maria,Bardan,Sorin,Cabinet 8
+23/02/2006,02:02:58,Bleotu,Dan Constantin,Dvornic,Mihai Serban,Cabinet 4
+10/09/2004,11:43:48,Ciolompea,Flaviu,Caramet,Aurel Florian,Cabinet 3
+06/06/2006,01:27:50,Stoicescu,Lucia-Ionela,Popîrlan,Laurentiu,Cabinet 5
+08/07/2009,05:00:30,Alexandru,Matei,Petica,Titus,Cabinet 2
+23/03/2008,02:15:53,Puscasu,Popa,Mindru,Laura-Mihaela,Cabinet 6
+21/12/2004,08:33:12,Gabriel,Liviu Daniel,Blindu,Danut Valentin,Cabinet 1
+09/09/2005,05:34:40,Nena,Adina-Minodora,Cristian Bogdan,Anca-Andreea,Cabinet 9
+30/03/2008,07:38:40,Turcu,Ilie Daniel,Handra,Ioana-Loredana,Cabinet 2
+02/09/2006,04:24:18,Monoreanu,Nicoleta,Cortojan,Constantin Sergiu,Cabinet 7
+18/10/2006,07:33:43,Dulea,Nicusor-Dorinel,Gabriel Mihai,Mihai Leonard,Cabinet 7
+22/05/2005,09:23:02,Sorin,Mihail Florian,Borza,Marius Florian,Cabinet 10
+25/09/2006,23:23:00,Iconaru,Ioan Romica,Copae,Oprea,Cabinet 7
+06/01/2008,00:51:53,Varjoghe,Sergiu Cristian,Ograzeanu,Cristina Alexandra,Cabinet 4
+21/04/2006,06:45:53,Samoila,Eusebiu,Ailoaie,Aurel Mihai,Cabinet 9
+31/10/2006,08:28:28,Geanta,Ana-Alina,Răzvan Anton,Iulia Hortensia,Cabinet 4
+08/07/2005,20:09:27,Elena,Mihail-Razvan,Cretu,Costel Lucian,Cabinet 2
+17/10/2004,01:43:17,Grosoiu,Ionuţ Constantin,Cucuiu,Nutu,Cabinet 8
+25/03/2005,00:30:54,Vacalie,Cătălin Florin,Dohan,Vincenţiu Mihail,Cabinet 4
+20/08/2009,10:56:30,Stoica,Ioan-Alexandru,Gabriel Mihai,Andreeea,Cabinet 2
+14/07/2006,13:10:29,Turcoman,Mihaela-Viorica,Mustatea,Gedo,Cabinet 1
+08/06/2009,08:27:23,Radulescu-Stinga,Puscasu,Postelnicu,Habib,Cabinet 9
+14/06/2008,23:24:43,Caras,Irina-Alexandra,Geanta,Dragos Madalin,Cabinet 1
+04/06/2006,14:46:41,Surdu,Nedelea,Simu,Ion-Alexandru,Cabinet 10
+28/04/2005,02:47:11,Manailescu,Serban-Ciprian,Ticu,Simona,Cabinet 10
+28/05/2008,23:16:29,Cuconu,Suzana,Pintea,Bogdan Marius,Cabinet 10
+10/05/2009,08:20:13,Bolea,Gheorghe,Giaba,Laurentiu-George,Cabinet 10
+14/01/2009,16:06:30,Baiu,Nicolae Robert,Postelnicu,Habib,Cabinet 9
+16/09/2007,23:44:47,Caragheorghii,Adrian Ion,Garbeata,Panait,Cabinet 1
+20/08/2008,14:44:53,Caracaş,Alexandr,Lingureanu,Raul,Cabinet 7
+01/01/2006,07:21:30,Victor,Toma,Mindru,Laura-Mihaela,Cabinet 5
+16/11/2006,19:41:20,Hodivoianu,Laurentiu-George,Rosca-Neranzi,Aurelia Miharla,Cabinet 3
+30/06/2007,02:19:33,Peter,Radu Stefan,Garbeata,Panait,Cabinet 10
+09/05/2006,03:17:30,Stanca,Daniel-Laurentiu,Vutan,Cristina Alexandra,Cabinet 10
+31/01/2006,03:44:49,Ludu,Stoian,Calance,Alin-Alexandru,Cabinet 6
+04/11/2007,15:20:05,Corodeanu,Zara,Ailoaie,Aurel Mihai,Cabinet 2
+12/12/2005,13:46:09,Strambu,Liviu Stefan,Buzea,Corneliu Mihai,Cabinet 6
+13/12/2004,03:47:07,Achim,Corneliu Mihai,Plesita,Andrei Gabriel,Cabinet 9
+09/12/2007,00:48:29,Chesoi,Iulian-Daniel,Evdochim,Liviu Eugen,Cabinet 7
+15/12/2008,14:33:47,Cusma,Stefan-Calin,Barbulescu,Alexandru-Mihail,Cabinet 2
+10/09/2007,13:40:24,Oprisor,Nicolae florin,Gabriel Mihai,Mihai Leonard,Cabinet 7
+08/03/2007,00:00:20,Hrisca,Adriana-Ioana,Pintea,Bogdan Marius,Cabinet 8
+15/02/2007,23:24:08,Efrim,Mircea Alexandru,Hodan,Ionut Mihai,Cabinet 6
+12/11/2004,04:28:19,Bica,Vladimir,Postelnicu,Stefan Alexandru,Cabinet 3
+27/06/2005,22:13:39,Birgaoanu-Acaei,Luigi,Grigoraş,Golban,Cabinet 8
+26/08/2008,23:18:22,Nicolaescu,Mirela,Vlad,Mircea Bogdan,Cabinet 1
+20/12/2005,09:56:37,Drogeanu,Radu Stefan,Plesita,Andrei Gabriel,Cabinet 7
+24/05/2005,14:41:04,Minciuna,Nicolae Aurelian,Briceag,Anca Stefana,Cabinet 8
+17/06/2005,16:32:08,Bulete,Bilc,Iulian,Gabriel George,Cabinet 1
+10/11/2004,11:54:44,Mosorescu,Florian,Bunica,Mihai-Daniel,Cabinet 5
+21/01/2009,12:01:51,Caba ,Ioan,Calance,Alin-Alexandru,Cabinet 2
+22/06/2009,06:49:26,Rotaru,Titus,Leuciuc,Tahoun,Cabinet 7
+24/07/2008,00:06:24,Iorgus,Ragea,Răzvan Anton,Iulia Hortensia,Cabinet 2
+30/08/2007,14:42:52,Plesita,Andreea,Cristian Bogdan,Anca-Andreea,Cabinet 9
+01/09/2009,11:23:35,Iulian,Andrei-Stefan,Tanasa,Alexandru-Ovidiu,Cabinet 1
+22/01/2007,06:41:59,Pisica,Fareta,Evdochim,Liviu Eugen,Cabinet 6
+21/08/2008,18:50:26,Chitiburea,Adriana-Ioana,Ene,Adrian-Stefan,Cabinet 2
+09/01/2008,12:06:30,Buleteanu,Andrei Ionuţ,Dragomanu,Mitrut,Cabinet 8
+11/12/2008,23:10:20,Negoita,Alexandru Cătălin,Postelnicu,Stefan Alexandru,Cabinet 10
+08/11/2004,19:01:03,Rolea,Ioana-Corina,Troncea,Dragos-Florian,Cabinet 2
+03/12/2006,15:36:01,Tatasel,Marius Alexandru,Hodan,Ionut Mihai,Cabinet 5
+20/08/2007,03:11:44,Frincu,Cătălin-Ionuţ,Hodan,Ionut Mihai,Cabinet 10
+02/05/2005,10:20:49,Deftu,Valeria,Vutan,Cristina Alexandra,Cabinet 7
+07/09/2007,05:49:37,Aparaschivei,Andrei Sorin,Cretu,Costel Lucian,Cabinet 8
+18/10/2007,11:14:36,Gersak,Vlad Andrei,Hristea,Maria-Daniela,Cabinet 5
+04/04/2006,08:22:06,Ivlev,Liviu Eugen,Donca,Cornelia-Ana,Cabinet 9
+30/12/2005,09:06:46,Plesita,Stefan Calin,Leuciuc,Tahoun,Cabinet 5
+11/10/2007,13:08:24,Simu,Marius Adrian,Mustatea,Gedo,Cabinet 6
+18/07/2007,14:36:15,Penes,Ovidiu Stefan,Ailoaie,Aurel Mihai,Cabinet 3
+23/12/2008,03:55:32,Baciu,Silviu Adrian,Dvornic,Mihai Serban,Cabinet 5
+16/02/2005,13:41:07,Vlad,Anderi Octavian,Borza,Marius Florian,Cabinet 6
+04/04/2008,17:15:39,Le,Flaviu,Bunoaica,Adriana - Ioana,Cabinet 10
+30/05/2009,10:39:13,Patrasinca,Bogdan Eugen,Paius,Ioana,Cabinet 10
+19/11/2004,22:22:54,Dulharu,Cernea,Banica,Danut Valentin,Cabinet 8
+23/10/2008,04:25:11,Grigore,Alina Liliana,Cirstea,Dragos-Ioan,Cabinet 10
+21/07/2008,16:32:02,Kochan,Bogdan Alexandru,Paius,Ioana,Cabinet 9
+28/04/2007,04:01:08,Alexandru,Nedelea,Ojog,Sabin,Cabinet 8
+15/10/2004,00:02:47,Mera,Alexandra Florina,Geanta,Dragos Madalin,Cabinet 7
+22/10/2008,14:19:03,Matei,Lucia-Ionela,Popîrlan,Laurentiu,Cabinet 4
+28/11/2005,21:54:50,Dupir,Mihail Florian,Blindu,Danut Valentin,Cabinet 8
+05/09/2004,10:22:14,Caracaş,Stefan Alexndru,Pisica,Ciprian Octavian,Cabinet 3
+29/10/2006,06:20:03,Le,Julia,Predescu,Gheorghe Adrian,Cabinet 8
+28/10/2007,00:16:05,Calugaru,Nicolae Corneliu,Garbeata,Panait,Cabinet 2
+22/03/2007,01:57:04,Sala,George Razvan,Paius,Ioana,Cabinet 6
+29/11/2006,00:49:25,Langa,Calin,Sterian,Gologaneanu,Cabinet 3
+04/09/2007,22:44:56,Mosorescu,Tiberiu Valentin,Vladescu,Barlea,Cabinet 6
+30/07/2006,20:57:08,Pascanu,Tudor Doru,Iordan,Romeo,Cabinet 7
+18/02/2007,00:09:18,Hanches,Vasile Andrei,Paius,Ioana,Cabinet 9
+29/09/2008,20:50:02,Cican,Nicolae Corneliu,Mindru,Laura-Mihaela,Cabinet 2
+11/06/2005,06:12:30,Plesita,Craita,Ceafalau,Vincenţiu Mihail,Cabinet 3
+09/10/2007,09:09:01,Ciubuc,Mihai Serban,Caia,Costin-Ciprian,Cabinet 5
+28/06/2009,07:40:59,Lehman,Bogdan Andrei,Slatineanu,Marius Adrian,Cabinet 2
+26/02/2009,16:07:28,Garbia,Ioana-Lorina,Gabriel Mihai,Mihai Leonard,Cabinet 9
+26/03/2005,04:22:57,Maldaianu,Valerian-Ionuţ,Cirstea,Dragos-Ioan,Cabinet 8
+01/06/2008,18:21:52,Badeci,Raducu Ionuţ,Cristian Bogdan,Anca-Andreea,Cabinet 2
+10/10/2004,17:24:33,Daniela,Petru,Hodan,Ionut Mihai,Cabinet 8
+02/08/2008,03:25:23,Kochan,Mario,Cirstea,Dragos-Ioan,Cabinet 9
+14/05/2009,21:14:35,Jucan,Adrian Ion,Vladescu,Barlea,Cabinet 2
+24/02/2007,11:30:11,Giaba,Adrian Marius,Condrea,Nutu,Cabinet 10
+15/05/2008,06:04:17,Huzum,Ramona,Armeanu,Ciprian,Cabinet 1
+27/08/2008,07:32:48,Pirlog,Ionuţ-Cristian,Dohan,Vincenţiu Mihail,Cabinet 4
+14/02/2007,05:08:40,Lenard,Andreea Nicoleta,Copae,Oprea,Cabinet 9
+19/02/2006,16:08:26,Calance,Mihaela Cristina,Gabriel Mihai,Andreeea,Cabinet 5
+19/01/2007,02:02:20,Vicol,Stefan Sorin,Răzvan Anton,Aura,Cabinet 8
+13/11/2007,22:58:31,Mustata,Mirela,Handra,Ioana-Loredana,Cabinet 2
+15/08/2005,21:52:55,Draghici,Cuculeac,Capatina,George-Mihail,Cabinet 10
+18/07/2007,18:57:10,Branciog,Liviu Eugen,Hriscanu,Iulian-Cosmin,Cabinet 5
+24/04/2008,03:47:52,Condrea,Fanica,Răzvan Anton,Aura,Cabinet 9
+13/08/2007,14:58:40,Constandache,Florentina Raluca,Paius,Ioana,Cabinet 9
+02/02/2008,00:57:13,Banarescu,Iulia-Georgiana,Vutan,Cristina Alexandra,Cabinet 7
+22/08/2009,00:04:31,Socol,Ionuţ Andrei,Geanta,Dragos Madalin,Cabinet 2
+28/09/2004,08:01:49,Huzum,Bogdan Cezar,Balaceanu,Mihaela Lucia,Cabinet 8
+07/07/2009,07:12:43,Peter,Ghoerghe-Ionuţ,Hodan,Ionut Mihai,Cabinet 6
+04/11/2008,07:33:07,Buia,Zoltan,Simu,Ion-Alexandru,Cabinet 4
+07/08/2008,19:39:45,Sterian,Laurentia,Vladescu,Barlea,Cabinet 9
+09/02/2007,19:49:04,Iulian,Abel,Buia,Tache,Cabinet 7
+19/09/2007,00:54:54,Miron,Bontas,Borza,Marius Florian,Cabinet 7
+28/07/2007,12:06:11,Buia,Bianca,Mustaţă,Lita,Cabinet 6
+10/12/2007,04:04:32,Rebrisoreanu,Valentin,Hidec,Mihail - Marcel,Cabinet 6
+25/10/2007,05:56:35,Marinache,Petronela Ana,Caldararu,Geanina,Cabinet 5
+06/12/2006,17:41:01,Iconaru,Julia,Leuciuc,Tahoun,Cabinet 3
+27/05/2006,02:21:52,Pesu,Andrei-Stefan,Hotoi,Dragos Alin,Cabinet 9
+15/03/2005,06:17:05,Frunza,Paris,Troncea,Dragos-Florian,Cabinet 8
+03/03/2009,16:16:33,Vlad,Virgil Gabriel,Slatineanu,Marius Adrian,Cabinet 10
+17/12/2008,16:54:34,Spiridon,Bogdan Cristian,Gabriel Mihai,Andreeea,Cabinet 1
+12/02/2007,18:10:07,Buica,Ionuţ Alexandru,Sterian,Gologaneanu,Cabinet 8
+03/08/2006,01:29:12,Talpa,Dan Marius,Stanca,Alin Petrişor,Cabinet 4
+27/07/2006,05:12:23,Miuta,Mihai - Ionuţ,Ceafalau,Vincenţiu Mihail,Cabinet 6
+26/12/2008,22:59:04,Sovarel,Ionuţ-Cristian,Bunoaica,Adriana - Ioana,Cabinet 8
+02/04/2006,19:24:53,Cristu,Oana,Mustatea,Gedo,Cabinet 9
+23/09/2007,12:09:13,Pristavu,Adrian Dragos,Tatasel,Alexandru-Ovidiu,Cabinet 5
+04/06/2006,04:15:43,Dimache,Cavill,Popîrlan,Laurentiu,Cabinet 6
+25/09/2008,06:26:18,Turiga,Veronica Flavia,Tatasel,Alexandru-Ovidiu,Cabinet 8
+08/12/2008,19:23:15,Robu,Simona Cristina,Iulian,Gabriel George,Cabinet 2
+30/06/2005,12:53:46,Sancraian,Alexis,Capatina,George-Mihail,Cabinet 1
+26/07/2007,11:31:37,Enciu,Marius Emil,Ograzeanu,Cristina Alexandra,Cabinet 3
+27/10/2004,08:33:41,Adamescu,Carol,Soarece,Dan-Cristian,Cabinet 7
+09/07/2008,02:57:44,Claudia,Alina-Cristina,Vlad,Mircea Bogdan,Cabinet 10
+31/12/2007,07:34:39,Mares,Iulian-Cosmin,Mindru,Laura-Mihaela,Cabinet 2
+10/07/2006,05:31:18,Tudose,Ionuţ Gabriel,Banica,Danut Valentin,Cabinet 5
+02/12/2006,03:39:31,Vatavu,Laurentiu-George,Caramet,Aurel Florian,Cabinet 4
+18/12/2005,12:35:00,Nistor,Ciprian Octavian,Pantea,Ionut Silviu,Cabinet 8
+11/06/2007,15:53:19,Pelin,Costel Lucian,Evdochim,Liviu Eugen,Cabinet 4
+03/12/2008,07:23:48,Ilina,Bogdan Gabriel,Vladescu,Barlea,Cabinet 2
+16/11/2005,00:04:46,Ciolacu,Adrian Marius,Briceag,Anca Stefana,Cabinet 6
+08/02/2006,03:39:42,Danalachi,Andreea,Garbeata,Panait,Cabinet 6
+11/10/2005,15:10:53,Pandele,Remus - Gabriel,Cortojan,Constantin Sergiu,Cabinet 2
+12/09/2005,20:28:10,Negoita,Valentin Daniel,Mazare,Liviu-Petru,Cabinet 9
+04/01/2006,23:50:54,Geanta,Ana-Alina,Paius,Ioana,Cabinet 1
+03/11/2006,16:44:51,Mares,Liviu Stefan,Calance,Alin-Alexandru,Cabinet 2
+21/06/2006,02:39:16,Iorgulescu,Mihaela Roxana,Răzvan Anton,Aura,Cabinet 5
+12/07/2009,15:09:23,Hirsu,De Test,Hodan,Ionut Mihai,Cabinet 7
+19/01/2008,22:48:23,Patrasinca,Bogdan Eugen,Balaceanu,Mihaela Lucia,Cabinet 7
+14/07/2007,10:00:50,Deaconu,Alexandru,Iordan,Romeo,Cabinet 5
+12/08/2006,01:21:58,Lingureanu,Simona,Cirstea,Dragos-Ioan,Cabinet 6
+28/03/2008,11:36:23,Botoc,Anton Iulian,Ceafalau,Vincenţiu Mihail,Cabinet 6
+06/04/2008,08:30:07,Turlete,Paul - Cristian,Handra,Ioana-Loredana,Cabinet 6
+10/10/2004,01:27:12,Bica,Vladimir,Caramet,Aurel Florian,Cabinet 6
+23/05/2007,06:20:46,Verciuc,Alexandru Laurentiu,Pintea,Bogdan Marius,Cabinet 8
+07/11/2005,18:05:35,Hriscanu,David,Bolea,Constantin Catalin,Cabinet 8
+10/12/2005,18:13:46,Dumitrache,Cristian-Stefan,Hotoi,Dragos Alin,Cabinet 6
+14/08/2005,07:34:21,Caramida,De Test,Borza,Marius Florian,Cabinet 7
+03/10/2007,02:41:45,Serdaru,Stefan-George,Mindru,Laura-Mihaela,Cabinet 7
+17/01/2005,01:22:36,Buleteanu,Violeta Gabriela,Calance,Alin-Alexandru,Cabinet 9
+12/09/2004,16:26:04,Tabara,Daniela Raluca,Evdochim,Liviu Eugen,Cabinet 6
+12/01/2008,16:15:32,Harlav,Ana Maria,Hodan,Ionut Mihai,Cabinet 4
+20/11/2005,15:30:41,Pampu,Florin Eugen,Calance,Alin-Alexandru,Cabinet 9
+26/07/2005,03:44:14,Ciungulescu,Alexandru-Bogdan,Ciurchea,George Gabriel,Cabinet 2
+06/11/2006,05:54:19,Manolache,Ciprian Victor,Cretu,Costel Lucian,Cabinet 2
+14/01/2006,05:04:20,Vladulescu,Bocai,Hriscanu,Iulian-Cosmin,Cabinet 8
+05/07/2006,21:34:10,Noaghea,Eugen Bogdan,Sterian,Gologaneanu,Cabinet 10
+19/10/2004,03:40:50,Bolohan,Cosmin Daniel,Gabriel Mihai,Mihai Leonard,Cabinet 10
+22/07/2007,17:52:21,Ghimpu,Alexandru-Dan,Bolea,Constantin Catalin,Cabinet 7
+21/11/2005,11:48:00,Kerekes,Viorel Sebastian,Rusu,Dragos Mihai,Cabinet 6
+04/06/2007,00:16:11,Copaceanu,Gratian,Borza,Marius Florian,Cabinet 8
+17/07/2006,04:54:05,Budescu,Corina Raluca,Răzvan Anton,Aura,Cabinet 8
+04/11/2008,20:23:39,Trandafir,Mihail-Iulian,Predescu,Gheorghe Adrian,Cabinet 2
+29/09/2005,16:36:39,Cone,Mihai Cosmin,Ojog,Sabin,Cabinet 2
+30/08/2007,20:17:52,Garbia,Bogdan Mihai,Calance,Alin-Alexandru,Cabinet 6
+24/01/2008,22:12:17,Dubiczki,Andrei Marius,Troncea,Dragos-Florian,Cabinet 10
+23/05/2005,23:10:34,Hapa,Dan Marius,Cretu,Costel Lucian,Cabinet 1
+02/01/2009,05:10:36,Terpezan,Lucian,Iconaru,Dragos,Cabinet 9
+13/08/2005,16:57:08,Tudose,Theodor Mugurel,Banica,Danut Valentin,Cabinet 7
+29/09/2006,03:06:02,Motoi,Bogdan-Leonard,Galescu,George Valentin,Cabinet 9
+16/07/2006,19:07:29,Dumitrescu,Laurentiu-George,Grigoraş,Golban,Cabinet 8
+15/06/2008,03:28:41,Parvulescu,Iordan,Hidec,Mihail - Marcel,Cabinet 2
+10/07/2008,05:03:59,AlexandruMedesan,Mihail Gabriel,Dragan,Mihai Leonard,Cabinet 10
+23/11/2007,05:55:24,Norocel,Remus - Gabriel,Garbeata,Panait,Cabinet 4
+12/11/2007,17:05:18,Formagiu,Ovidiu - Cosmin,Tanasa,Alexandru-Ovidiu,Cabinet 2
+19/02/2005,16:58:55,Lichi,Andrei-Silviu,Donca,Cornelia-Ana,Cabinet 8
+01/02/2006,02:42:20,Verciuc,Stefania,Tanasa,Alexandru-Ovidiu,Cabinet 6
+14/10/2006,17:53:14,Ignat,Marius Dan,Gabriel Mihai,Mihai Leonard,Cabinet 7
+01/01/2006,12:58:56,Predescu,Aura,Jucan,Andrei Gabriel,Cabinet 9
+02/05/2009,23:05:34,Ancuta,Ionuţ-Alin,Bunoaica,Adriana - Ioana,Cabinet 10
+15/01/2006,02:37:44,Koti,Danut Madalin,Barbulescu,Alexandru-Mihail,Cabinet 5
+28/08/2007,23:40:48,Puscasu,Denisa Elena,Hodan,Ionut Mihai,Cabinet 10
+09/06/2007,14:23:46,Dinut,Cosmin Daniel,Leuciuc,Tahoun,Cabinet 2
+20/10/2006,05:57:37,Constantinescu,Mugurel Adrian,Răzvan Anton,Iulia Hortensia,Cabinet 5
+10/08/2005,13:25:31,Buica,Ionuţ Alexandru,Simu,Ion-Alexandru,Cabinet 2
+14/03/2005,06:37:16,Cringanu,Alexandru Vlad,Geanta,Dragos Madalin,Cabinet 9
+11/02/2007,18:27:12,Grigorian,Magda Marina,Buzea,Corneliu Mihai,Cabinet 7
+07/08/2005,18:41:58,Hotoi, Roxana,Teodor,Catalina Ioana,Cabinet 9
+26/06/2005,20:12:45,Harald-Cezar,Fesus,Jucan,Andrei Gabriel,Cabinet 10
+01/08/2005,18:41:07,Iorgulescu,Mihaela Roxana,Grigoraş,Golban,Cabinet 9
+26/11/2006,09:44:24,Calcii,Adrian Stefan,Balaceanu,Mihaela Lucia,Cabinet 2
+24/03/2006,15:32:33,Ilina,Bogdan Gabriel,Sterian,Gologaneanu,Cabinet 1
+19/06/2005,13:18:29,Angelescu,George-Marcel,Nimigean,Marius Alexandru,Cabinet 1
+08/11/2008,16:09:11,Banarescu,Laurentiu - Ionuţ ,Armeanu,Ciprian,Cabinet 6
+20/11/2005,10:17:37,Carcadia,Ana Maria,Pintea,Bogdan Marius,Cabinet 4
+17/08/2007,03:40:27,Purcareanu,Alexandru Ovidiu ,Mazare,Liviu-Petru,Cabinet 7
+26/10/2008,14:19:41,Capatina,Dorel-Constantin,Mazare,Liviu-Petru,Cabinet 2
+17/02/2005,11:09:30,Dohan,Moroianu,Banica,Danut Valentin,Cabinet 1
+24/04/2007,23:58:19,Aureliu,Octavian-Mihail,Silviu ,Adrian Ionut,Cabinet 7
+16/06/2008,14:09:47,Turcanu,Burghelea,Handra,Ioana-Loredana,Cabinet 2
+18/09/2005,04:47:23,Taranu,Aurel,Hotoi,Dragos Alin,Cabinet 4
+09/01/2009,01:34:33,Sovarel,Ioana Laura,Mazare,Liviu-Petru,Cabinet 3
+21/01/2009,04:21:57,Ghimpu,Reter,Rosca-Neranzi,Aurelia Miharla,Cabinet 9
+14/04/2007,16:26:51,Vladuta,Boby,Leuciuc,Tahoun,Cabinet 7
+05/02/2008,02:19:59,Mutulescu,Ioana-Lorina,Gabriel Mihai,Mihai Leonard,Cabinet 9
+23/02/2006,11:21:50,Cuconu,De Test,Mindru,Laura-Mihaela,Cabinet 9
+24/05/2008,08:30:12,Mihaita,Eugeniu,Armeanu,Ciprian,Cabinet 2
+23/12/2005,23:34:58,Magla,Alexandru-Paul,Răzvan Anton,Iulia Hortensia,Cabinet 7
+21/08/2005,14:50:29,Mustatea,Alexandru Razvan,Paius,Ioana,Cabinet 7
+02/12/2007,00:26:20,Jianu,Stefan-Calin,Briceag,Anca Stefana,Cabinet 5
+27/05/2008,23:40:05,Nichitean,Alexandru Adrian,Handra,Ioana-Loredana,Cabinet 3
+15/08/2009,18:30:46,Fecioru,Habib,Barbulescu,Alexandru-Mihail,Cabinet 6
+11/07/2005,16:05:25,Clitman,Alexander,Postelnicu,Habib,Cabinet 4
+26/08/2009,07:46:15,Pampu,Dorin-Mihai,Stanca,Alin Petrişor,Cabinet 8
+22/12/2007,10:52:15,Nimigean,Alina Cristina,Hidec,Mihail - Marcel,Cabinet 6
+05/03/2006,08:00:09,Tudose,Alin-Ilie,Balaceanu,Mihaela Lucia,Cabinet 9
+18/09/2004,13:10:23,Guta,Iulia Maria,Copae,Toma,Cabinet 4
+13/10/2004,17:15:12,Aciu,Crina,Donca,Cornelia-Ana,Cabinet 8
+30/09/2004,01:20:20,Manea,Razvan-Gabriel,Evdochim,Liviu Eugen,Cabinet 8
+03/08/2007,02:03:49,Hodivoianu,Fanica,Cretu,Costel Lucian,Cabinet 8
+30/12/2008,12:01:34,Dragne,Mihaela-Viorica,Hidec,Mihail - Marcel,Cabinet 7
+16/08/2009,20:47:56,Chisa,Livius Codrut,Mustaţă,Lita,Cabinet 10
+29/08/2006,23:05:59,Ghit,Vladimir,Pintea,Bogdan Marius,Cabinet 3
+04/09/2008,07:38:32,Calagiu,Bejan,Papuc,Raducu-Liviu,Cabinet 3

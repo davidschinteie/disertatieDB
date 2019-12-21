@@ -1,0 +1,109 @@
+Nume,Prenume,Tip,Specialitate
+Bunica,Mihai-Daniel,primar,reumatologie
+Donca,Cornelia-Ana,primar,chirurgie
+Achiriloaie,Lorand-Levente,specialist,neurologie
+Papuc,Raducu-Liviu,primar,homeopatie
+Cucuiu,Nutu,primar,ortopedie
+Buia,Tache,specialist,ginecologie
+Dragomanu,Mitrut,specialist,ecografie
+Ticu,Simona,specialist,psihiatrie
+Ene,Adrian-Stefan,specialist,pediatrie
+Copae,Toma,primar,neurologie
+Hotoi,Dragos Alin,specialist,pediatrie
+Ceafalau,Vincenţiu Mihail,primar,pediatrie
+Briceag,Anca Stefana,primar,imagistica
+Condrea,Nutu,primar,fizioterapie
+Cruceru,Ioana-Loredana,primar,dermatologie
+Soarece,Dan-Cristian,primar,o.r.l.
+Tatasel,Alexandru-Ovidiu,specialist,psihologie
+Sterian,Gologaneanu,primar,chirurgie
+Postelnicu,Habib,primar,chirurgie
+Silviu ,Adrian Ionut,primar,dermatologie
+Paius,Ioana,specialist,ortopedie
+Borza,Marius Florian,specialist,fizioterapie
+Tamas,Ciprian Costel,primar,chirurgie
+Ograzeanu,Cristina Alexandra,primar,endocrinologie
+Rildo,Alex,specialist,ecografie
+Capatina,George-Mihail,specialist,endocrinologie
+Rosca-Neranzi,Aurelia Miharla,specialist,pediatrie
+Simu,Ion-Alexandru,specialist,psihiatrie
+Vladescu,Barlea,primar,chirurgie
+Lingureanu,Raul,primar,psihiatrie
+Cristian Bogdan,Anca-Andreea,specialist,psihiatrie
+Pisica,Ciprian Octavian,primar,psihiatrie
+Ciurchea,George Gabriel,primar,ortopedie
+Ailoaie,Aurel Mihai,primar,ortopedie
+Gilau,George-Marian,specialist,neurologie
+Tanasa,Alexandru-Ovidiu,primar,dermatologie
+Caia,Costin-Ciprian,primar,psihiatrie
+Pintea,Bogdan Marius,primar,pediatrie
+Garbeata,Panait,primar,chirurgie
+Godeanu,Andra Maria,specialist,ginecologie
+Acsinte,Bogdan Vlad,specialist,o.r.l.
+Predescu,Gheorghe Adrian,primar,dermatologie
+Calance,Alin-Alexandru,specialist,o.r.l.
+Ojog,Sabin,specialist,psihologie
+Hriscanu,Iulian-Cosmin,primar,cardiologie
+Ceausu,Vasiliu,specialist,psihiatrie
+Bardan,Sorin,specialist,cardiologie
+Afrem,Laurentiu - Ionuţ ,specialist,ortopedie
+Cretu,Costel Lucian,specialist,psihologie
+Barbulescu,Alexandru-Mihail,primar,endocrinologie
+Răzvan Anton,Aura,primar,cardiologie
+Hodan,Ionut Mihai,primar,ecografie
+Buzea,Corneliu Mihai,primar,dermatologie
+Petica,Titus,primar,chirurgie
+Acsinte,Adrian Ionuţ,specialist,neurologie
+Mustatea,Gedo,primar,ortopedie
+Raul,Cioaca,specialist,cardiologie
+Handra,Ioana-Loredana,specialist,homeopatie
+Plesita,Andrei Gabriel,specialist,dermatologie
+Grigoraş,Golban,specialist,ginecologie
+Stanca,Alin Petrişor,primar,ortopedie
+Alexa,Octavian,specialist,ortopedie
+Vutan,Cristina Alexandra,primar,fizioterapie
+Mindru,Laura-Mihaela,specialist,psihologie
+Rusu,Dragos Mihai,specialist,neurologie
+Evdochim,Liviu Eugen,specialist,ortopedie
+Chioveanu,Lavinia,primar,cardiologie
+Hristea,Maria-Daniela,specialist,fizioterapie
+Dragan,Mihai Leonard,primar,imagistica
+Acsinte,Paris,primar,o.r.l.
+Nimigean,Marius Alexandru,primar,psihiatrie
+Bunoaica,Adriana - Ioana,specialist,dermatologie
+Mazare,Liviu-Petru,primar,endocrinologie
+Dvornic,Mihai Serban,specialist,cardiologie
+Iulian,Gabriel George,specialist,dermatologie
+Ghiţă,Octavian,specialist,psihiatrie
+Răzvan Anton,Iulia Hortensia,specialist,ortopedie
+Bolea,Constantin Catalin,specialist,ortopedie
+Hidec,Mihail - Marcel,primar,neurologie
+Giaba,Laurentiu-George,primar,ecografie
+Gabriel Mihai,Andreeea,specialist,endocrinologie
+Balaceanu,Mihaela Lucia,primar,o.r.l.
+Popîrlan,Laurentiu,primar,ginecologie
+Blindu,Danut Valentin,specialist,neurologie
+Postelnicu,Stefan Alexandru,specialist,o.r.l.
+Caramet,Aurel Florian,primar,ginecologie
+Jucan,Andrei Gabriel,primar,cardiologie
+Slatineanu,Marius Adrian,specialist,neurologie
+Gabriel Mihai,Mihai Leonard,primar,ortopedie
+Mustaţă,Lita,primar,neurologie
+Dohan,Vincenţiu Mihail,specialist,neurologie
+Troncea,Dragos-Florian,primar,neurologie
+Caldararu,Geanina,primar,cardiologie
+Iordan,Romeo,specialist,endocrinologie
+Copae,Oprea,primar,dermatologie
+Banica,Danut Valentin,primar,psihiatrie
+Leuciuc,Tahoun,primar,neurologie
+Teodor,Catalina Ioana,specialist,ecografie
+Cirstea,Dragos-Ioan,specialist,dermatologie
+Aaron,Alin,primar,chirurgie
+Pantea,Ionut Silviu,specialist,cardiologie
+Armeanu,Ciprian,primar,neurologie
+Geanta,Dragos Madalin,primar,o.r.l.
+Iconaru,Dragos,primar,ginecologie
+Galescu,George Valentin,specialist,chirurgie
+Cortojan,Constantin Sergiu,specialist,chirurgie
+Vlad,Mircea Bogdan,primar,fizioterapie
+Ciublea,Gabriel,specialist,pneumologie
