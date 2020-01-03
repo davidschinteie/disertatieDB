@@ -18,29 +18,27 @@ USE `medicalApp`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `GradProfesional`
+-- Table structure for table `Zona`
 --
 
-DROP TABLE IF EXISTS `GradProfesional`;
+DROP TABLE IF EXISTS `Zona`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `GradProfesional` (
-  `id_grad` int(3) NOT NULL AUTO_INCREMENT,
-  `grad_profesional` varchar(20) DEFAULT NULL,
-  `salariu_min` int(6) DEFAULT NULL,
-  `salariu_max` int(6) DEFAULT NULL,
-  PRIMARY KEY (`id_grad`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+CREATE TABLE `Zona` (
+  `id_zona` int(3) NOT NULL AUTO_INCREMENT,
+  `denumire` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id_zona`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `GradProfesional`
+-- Dumping data for table `Zona`
 --
 
-LOCK TABLES `GradProfesional` WRITE;
-/*!40000 ALTER TABLE `GradProfesional` DISABLE KEYS */;
-INSERT INTO `GradProfesional` VALUES (1,'primar',10500,14500),(2,'specialist',7300,9900),(3,'rezident',4700,6200);
-/*!40000 ALTER TABLE `GradProfesional` ENABLE KEYS */;
+LOCK TABLES `Zona` WRITE;
+/*!40000 ALTER TABLE `Zona` DISABLE KEYS */;
+INSERT INTO `Zona` VALUES (1,'Zona Centrala'),(2,'Cartierul Berceni'),(3,'Cartierul Militari'),(4,'Cartierul Floreasca'),(5,'Cartierul Aviatorilor'),(6,'Cartierul Aviatiei'),(7,'Cartierul Colentina'),(8,'Cartierul Giulesti');
+/*!40000 ALTER TABLE `Zona` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

@@ -99,8 +99,7 @@ set salariu_max = (FLOOR(RAND()*(145-105))+105)*100;
 insert into SpecialitatiMedicale (id_specialitate, specialitate, salariu_min, salariu_max)
 select * from SpecialitatiMedicale_temp;
 
-select * from SpecialitatiMedicale;
-drop table if exists SpecialitatiMedicale_temp;
+select * from SpecialitateMedicala;
 show tables;
 
 /*CREAREA TABELEI TEMPORARE MEDIC_TEMP*/
@@ -216,3 +215,204 @@ update Medic set specialitate_id = id_medic - 104 where id_medic > 104;
 select * from Medic;
 select * from SpecialitateMedicala;
 select * from GradProfesional;
+
+-- Tabelele pentru cabinete si policlinici:
+
+/*Tabela Impartirii locatiilor pe Zone */
+drop table if exists Zona;
+create table Zona(
+	id_zona int(3) primary key auto_increment,
+    denumire varchar(50)
+);
+
+/*Tabela Policlinica */
+Drop table if exists Policlinica;
+create table Policlinica(
+	id_policlinica int(3) primary key auto_increment,
+	denumire varchar(50),
+    email varchar(100),
+    telefon varchar(20),
+    adresa varchar(225),
+    link_google_map varchar(225),
+    zona_id int(3),
+    data_deschiderii date,
+    chiria_lunara int(6),
+    foreign key (zona_id) references Zona(id_zona)
+);
+
+/*Tabela Cabinet*/
+Drop table if exists Cabinet;
+create table Cabinet(
+	id_cabinet int(3) primary key auto_increment,
+	denumire varchar(50),
+    specialitate_id int(3),
+    policlinica_id int(3),
+    foreign key (specialitate_id) references SpecialitateMedicala(id_specialitate),
+    foreign key (policlinica_id) references Policlinica(id_policlinica)
+);
+
+/*Tabela Programul Cabinetelor Medicale/Policlinicilor */
+drop table if exists Program;
+create table Program(
+	id_program int(3) primary key auto_increment,
+    ziua_saptamanii varchar(50),
+    ora_inceput time,
+    ora_sfarsit time,
+    cabinet_id int(3),
+    foreign key (cabinet_id) references Cabinet(id_cabinet)
+);
+
+-- insert dummy data into zona/locatii:
+insert into Zona (denumire) values ('Zona Centrala'),('Cartierul Berceni'),('Cartierul Militari'),('Cartierul Floreasca'),('Cartierul Aviatorilor'),('Cartierul Aviatiei'), ('Cartierul Colentina'), ('Cartierul Giulesti');
+
+select * from Zona;
+
+-- insert dummy data in tabela cu Programul Cabinetelor Medicale/Policlinicilor
+-- @ todo !!
+
+-- insert dummy data in tabela Policlinica
+insert into Policlinica (denumire, email, telefon, adresa, zona_id, link_google_map) 
+	values 	('TITU MAIORESCU', 'titu_maiorescu@clinica_med.ro', '021-9212', 'Calea Vacaresti 189', 1, 'https://goo.gl/maps/JWwmj54Z7AMHRJgx5'), 
+			('ORHIDEEA', 'orhideea@clinica_med.ro', '021-9213', 'Splaiul Independentei 319C', 8, 'https://goo.gl/maps/cF4kjd2uLCaLrK8J7'), 
+            ('COTROCENI', 'cotroceni@clinica_med.ro', '021-9214', 'Soseaua Cotroceni 20', 1, 'https://goo.gl/maps/6R4crrwGjMygALHU8'), 
+            ('ENESCU', 'enescu@clinica_med.ro', '021-9215', 'Strada George Enescu 12', 1, 'https://goo.gl/maps/hG9R3P2cAG7HNaML9'), 
+            ('FLOREASCA', 'floreasca@clinica_med.ro', '021-9216', 'Strada Axinte Uricariul', 4, 'https://goo.gl/maps/RThPLu1sycY5n69T9'), 
+            ('AVIATIEI', 'aviatiei@clinica_med.ro', '021-9217', 'Calea Floreasca 169A', 6, 'https://goo.gl/maps/i98wHj4zURppzp6z5'), 
+            ('LUJERULUI', 'lujerului@clinica_med.ro', '021-9218', 'Bulevardul Iuliu Maniu 51', 3, 'https://goo.gl/maps/ZWj5cb2wnCZ24n6M7'), 
+            ('SUN PLAZA', 'sun_plaza@clinica_med.ro', '021-9219', 'Calea Vacaresti 391', 2, 'https://goo.gl/maps/qAemtskpWdMKhwas8'), 
+            ('VICTORIA', 'victoria@clinica_med.ro', '021-9261', 'Strada Buzesti 75', 1, 'https://goo.gl/maps/Y4TzUNcjeHZ7VjM48'),
+            ('DOROBANTI', 'dorobanti@clinica_med.ro', '021-9265', 'Calea Dorobanti 240', 5, 'https://goo.gl/maps/Z4QvA2SnNFdFe8nm6'),
+            ('DOAMNA GHICA', 'doamna_ghica@clinica_med.ro', '021-9267', 'Strada Doamna Ghica 135', 7, 'https://goo.gl/maps/GeKJyuEZfsBT2gHa9');
+
+-- insert dummy data for chirie_lunara range between 10500 - 14500:
+update Policlinica
+set chirie_lunara = (FLOOR(RAND()*(145-105))+105)*100;
+
+-- insert dummy data for data_deschiderii:
+INSERT INTO Policlinica (`id_policlinica`,`data_deschiderii`) VALUES (1,"2009-05-26"),(2,"2015-09-27"),(3,"2012-07-12"),(4,"2012-04-22"),(5,"2015-11-27"),(6,"2019-08-11"),(7,"2018-02-19"),(8,"2009-03-18"),(9,"2009-04-24"),(10,"2008-04-13"),(11,"2012-11-04")
+on duplicate key update data_deschiderii = values(data_deschiderii);
+
+select * from Policlinica;
+
+insert into Cabinet values 
+(21, 'Cabinet 1', (FLOOR(RAND()*26)+1), 3),
+(22, 'Cabinet 2', (FLOOR(RAND()*26)+1), 3),
+(23, 'Cabinet 3', (FLOOR(RAND()*26)+1), 3),
+(24, 'Cabinet 4', (FLOOR(RAND()*26)+1), 3),
+(25, 'Cabinet 5', (FLOOR(RAND()*26)+1), 3),
+(26, 'Cabinet 6', (FLOOR(RAND()*26)+1), 3),
+(27, 'Cabinet 7', (FLOOR(RAND()*26)+1), 3),
+(28, 'Cabinet 8', (FLOOR(RAND()*26)+1), 3),
+(29, 'Cabinet 9', (FLOOR(RAND()*26)+1), 3),
+(30, 'Cabinet 10', (FLOOR(RAND()*26)+1), 3),
+(31, 'Cabinet 1', (FLOOR(RAND()*26)+1), 4),
+(32, 'Cabinet 2', (FLOOR(RAND()*26)+1), 4),
+(33, 'Cabinet 3', (FLOOR(RAND()*26)+1), 4),
+(34, 'Cabinet 4', (FLOOR(RAND()*26)+1), 4),
+(35, 'Cabinet 5', (FLOOR(RAND()*26)+1), 4),
+(36, 'Cabinet 6', (FLOOR(RAND()*26)+1), 4),
+(37, 'Cabinet 7', (FLOOR(RAND()*26)+1), 4),
+(38, 'Cabinet 8', (FLOOR(RAND()*26)+1), 4),
+(39, 'Cabinet 9', (FLOOR(RAND()*26)+1), 4),
+(40, 'Cabinet 10', (FLOOR(RAND()*26)+1), 4),
+(41, 'Cabinet 1', (FLOOR(RAND()*26)+1), 5),
+(42, 'Cabinet 2', (FLOOR(RAND()*26)+1), 5),
+(43, 'Cabinet 3', (FLOOR(RAND()*26)+1), 5),
+(44, 'Cabinet 4', (FLOOR(RAND()*26)+1), 5),
+(45, 'Cabinet 5', (FLOOR(RAND()*26)+1), 5),
+(46, 'Cabinet 6', (FLOOR(RAND()*26)+1), 5),
+(47, 'Cabinet 7', (FLOOR(RAND()*26)+1), 5),
+(48, 'Cabinet 8', (FLOOR(RAND()*26)+1), 5),
+(49, 'Cabinet 9', (FLOOR(RAND()*26)+1), 5),
+(50, 'Cabinet 10', (FLOOR(RAND()*26)+1), 5),
+(51, 'Cabinet 1', (FLOOR(RAND()*26)+1), 6),
+(52, 'Cabinet 2', (FLOOR(RAND()*26)+1), 6),
+(53, 'Cabinet 3', (FLOOR(RAND()*26)+1), 6),
+(54, 'Cabinet 4', (FLOOR(RAND()*26)+1), 6),
+(55, 'Cabinet 5', (FLOOR(RAND()*26)+1), 6),
+(56, 'Cabinet 6', (FLOOR(RAND()*26)+1), 6),
+(57, 'Cabinet 7', (FLOOR(RAND()*26)+1), 6),
+(58, 'Cabinet 8', (FLOOR(RAND()*26)+1), 6),
+(59, 'Cabinet 9', (FLOOR(RAND()*26)+1), 6),
+(60, 'Cabinet 10', (FLOOR(RAND()*26)+1), 6),
+(61, 'Cabinet 1', (FLOOR(RAND()*26)+1), 7),
+(62, 'Cabinet 2', (FLOOR(RAND()*26)+1), 7),
+(63, 'Cabinet 3', (FLOOR(RAND()*26)+1), 7),
+(64, 'Cabinet 4', (FLOOR(RAND()*26)+1), 7),
+(65, 'Cabinet 5', (FLOOR(RAND()*26)+1), 7),
+(66, 'Cabinet 6', (FLOOR(RAND()*26)+1), 7),
+(67, 'Cabinet 7', (FLOOR(RAND()*26)+1), 7),
+(68, 'Cabinet 8', (FLOOR(RAND()*26)+1), 7),
+(69, 'Cabinet 9', (FLOOR(RAND()*26)+1), 7),
+(70, 'Cabinet 10', (FLOOR(RAND()*26)+1), 7),
+(71, 'Cabinet 1', (FLOOR(RAND()*26)+1), 8),
+(72, 'Cabinet 2', (FLOOR(RAND()*26)+1), 8),
+(73, 'Cabinet 3', (FLOOR(RAND()*26)+1), 8),
+(74, 'Cabinet 4', (FLOOR(RAND()*26)+1), 8),
+(75, 'Cabinet 5', (FLOOR(RAND()*26)+1), 8),
+(76, 'Cabinet 6', (FLOOR(RAND()*26)+1), 8),
+(77, 'Cabinet 7', (FLOOR(RAND()*26)+1), 8),
+(78, 'Cabinet 8', (FLOOR(RAND()*26)+1), 8),
+(79, 'Cabinet 9', (FLOOR(RAND()*26)+1), 8),
+(80, 'Cabinet 10', (FLOOR(RAND()*26)+1), 8),
+(81, 'Cabinet 1', (FLOOR(RAND()*26)+1), 9),
+(82, 'Cabinet 2', (FLOOR(RAND()*26)+1), 9),
+(83, 'Cabinet 3', (FLOOR(RAND()*26)+1), 9),
+(84, 'Cabinet 4', (FLOOR(RAND()*26)+1), 9),
+(85, 'Cabinet 5', (FLOOR(RAND()*26)+1), 9),
+(86, 'Cabinet 6', (FLOOR(RAND()*26)+1), 9),
+(87, 'Cabinet 7', (FLOOR(RAND()*26)+1), 9),
+(88, 'Cabinet 8', (FLOOR(RAND()*26)+1), 9),
+(89, 'Cabinet 9', (FLOOR(RAND()*26)+1), 9),
+(90, 'Cabinet 10', (FLOOR(RAND()*26)+1), 9),
+(91, 'Cabinet 1', (FLOOR(RAND()*26)+1), 10),
+(92, 'Cabinet 2', (FLOOR(RAND()*26)+1), 10),
+(93, 'Cabinet 3', (FLOOR(RAND()*26)+1), 10),
+(94, 'Cabinet 4', (FLOOR(RAND()*26)+1), 10),
+(95, 'Cabinet 5', (FLOOR(RAND()*26)+1), 10),
+(96, 'Cabinet 6', (FLOOR(RAND()*26)+1), 10),
+(97, 'Cabinet 7', (FLOOR(RAND()*26)+1), 10),
+(98, 'Cabinet 8', (FLOOR(RAND()*26)+1), 10),
+(99, 'Cabinet 9', (FLOOR(RAND()*26)+1), 10),
+(100, 'Cabinet 10', (FLOOR(RAND()*26)+1), 10),
+(101, 'Cabinet 1', (FLOOR(RAND()*26)+1), 11),
+(102, 'Cabinet 2', (FLOOR(RAND()*26)+1), 11),
+(103, 'Cabinet 3', (FLOOR(RAND()*26)+1), 11),
+(104, 'Cabinet 4', (FLOOR(RAND()*26)+1), 11),
+(105, 'Cabinet 5', (FLOOR(RAND()*26)+1), 11),
+(106, 'Cabinet 6', (FLOOR(RAND()*26)+1), 11),
+(107, 'Cabinet 7', (FLOOR(RAND()*26)+1), 11),
+(108, 'Cabinet 8', (FLOOR(RAND()*26)+1), 11),
+(109, 'Cabinet 9', (FLOOR(RAND()*26)+1), 11),
+(110, 'Cabinet 10', (FLOOR(RAND()*26)+1), 11);
+
+select id_policlinica, Policlinica.denumire, email, telefon, adresa, link_google_map, Zona.denumire as zona, data_deschiderii, chirie_lunara from Policlinica, Zona where Policlinica.zona_id = Zona.id_zona;
+select Cabinet.id_cabinet, Cabinet.denumire as Cabinet, SpecialitateMedicala.specialitate, Policlinica.denumire as Policlinica from Cabinet
+    inner join SpecialitateMedicala on Cabinet.specialitate_id = SpecialitateMedicala.id_specialitate
+    inner join Policlinica on Cabinet.policlinica_id = Policlinica.id_policlinica
+    where id_cabinet = 100;
+
+select * from SpecialitateMedicala;
+
+select * from Cabinet;
+
+select * from Policlinica;
+SELECT id_cabinet, denumire, specialitate_id, policlinica_id where id_cabinet = '111';
+SELECT id_specialitate FROM SpecialitateMedicala WHERE specialitate = 'UROLOGIE';
+SELECT id_policlinica FROM Policlinica WHERE denumire = 'TITU MAIORESCU';
+-- Tabela SpecialitateMedicala
+-- Tabela GradProfesional
+-- Tabela Medic
+-- Tabela Zona
+-- Tabela Policlinica
+-- Tabela Cabinet
+
+-- Tabela Program
+-- Tabela ServiciuMedical (denumire, pret)
+-- Tabela Pacient (nume, prenume, email, telefon, data_nasterii, asigurare_id, donator_id)
+-- Tabela AsigurareMedicala
+-- Tabela AsiguratorMedical ( nume) ??
+-- Tabela GrupaDonator (grupa_sanguina) ??
+-- Tabela RH (rh) ??
+-- Tabela CeluleStem ??
+-- Tabela Programare (medic_id, cabinet_id, pacient_id, serviciu_id, datetime) 
