@@ -400,12 +400,326 @@ select * from Policlinica;
 SELECT id_cabinet, denumire, specialitate_id, policlinica_id where id_cabinet = '111';
 SELECT id_specialitate FROM SpecialitateMedicala WHERE specialitate = 'UROLOGIE';
 SELECT id_policlinica FROM Policlinica WHERE denumire = 'TITU MAIORESCU';
--- Tabela SpecialitateMedicala
+
+
+
+-- insert dummy data in Utilizator
+insert into Utilizator (nume, prenume, email, telefon) select nume, prenume, email, telefon from Medic_temp;
+
+select * from Utilizator;
+
+SELECT LEFT(email,INSTR(email,"@")-1) AS FirstValue From Medic_temp;
+SET SQL_SAFE_UPDATES = 0;
+update Utilizator set nume_utilizator = LEFT(email,INSTR(email,"@")-1);
+
+insert into Utilizator (id_utilizator, parola_criptata) values 
+(1, '11cd91fbbc2a466e34ed4d321cd112a9')
+,(2, '901a3bc75dfd7f478e5b3947888a1e02')
+,(3, 'b67bf4b743275a61d90a87cb4c7a502e')
+,(4, 'ee305057e40921b173468c1c62520000')
+,(5, 'c79de5c991bcfedf1db798cfd8d90209')
+,(6, 'e08430953c7633f7c1c7bbd2c752e2a2')
+,(7, '9f732cb8687e245904d3a847cc100e24')
+,(8, '3b044df83831bf4983844359aa8601ff')
+,(9, '2b1c15fea9eb36adb6b18d64a57711ac')
+,(10, 'c306fb7cb362b0da013ab8e3329d7d81')
+,(11, '33da115883a38d609ea66ca9ca330edd')
+,(12, '2190ce87d619e0d8bd4965cf1c33ddb9')
+,(13, '75a02d520fd493b8a99cebba889d975b')
+,(14, '9b0f80297e2ce927fe910f5768cb6ab8')
+,(15, 'cda6c88058d39a3ec662b27d0d51895d')
+,(16, 'cb047d19d6c65d336b1ba226d4b7e953')
+,(17, '72163168f08b35cec9945c4021efc609')
+,(18, 'beba028da5913e64710e12f5813cfc67')
+,(19, '589bdf63466bff7021906bad6bd9aa25')
+,(20, 'ec6193e7b5e23688e25dc7234fcab56b')
+,(21, 'ad6b3e42ebcc874439ee55e41f6b3819')
+,(22, '996a57a28e675c7a269c7868d9451cb2')
+,(23, '4fb94997b610b6a655f654cd7276db92')
+,(24, '2dce9e20e4c45e5072e23847babc1680')
+,(25, '9f601be3d03c02e040745343a6de92a6')
+,(26, '724fa8ff44e230ba311a00ba4af54ba9')
+,(27, 'fdc242cf328ac927de08f38d800a8d3b')
+,(28, 'ff93855a8a350f89d92e981ea842b12d')
+,(29, '1a47d39a12ca9573f7ba835e42d15797')
+,(30, 'd8480ca0dab2aabbd4797b41afb2e34e')
+,(31, 'b1641b325b949a80d916564ad2e34590')
+,(32, '30e57a2d7b58af450c000926bc13e274')
+,(33, 'e1f7153d447659a69160b70830d0c444')
+,(34, '5fb2187e055ecc81ecea309fe9a29605')
+,(35, '52a72738c2c0354228747b4abdee5047')
+,(36, 'a76efca534485f2f33324359b4b3b194')
+,(37, '44f2494709215b727b69008ed8bba956')
+,(38, '7655964feaf3b7d1fc16ced27e355f93')
+,(39, '8bbb666c4c06c032cae6f564f37650af')
+,(40, 'e66c3a49f6ceec7ba8aa9bfd27dcff27')
+,(41, '1df502b2c79729e54a9bda4457619093')
+,(42, '64014cd02441776e82fb84a2cd18993e')
+,(43, '8aabe983e8c63c05823717d8bcfd7931')
+,(44, '00e80c6d3e566d65bbf7e71f9a969ad5')
+,(45, '29ee747b5a2cb20fd5559ba719b5fa26')
+,(46, '81d8717a9660518dafda94c8c8a3a5a2')
+,(47, '77d8e03b2eef94f8e5065acb609370f0')
+,(48, 'd16ce64d43706dc79114f0427f3ca761')
+,(49, '0df3821b2d88498fd5a7ed9fb6ed677a')
+,(50, '52049b84a2108136d9969d889fb04913')
+,(51, '2b6870f761f94ee07c1db1e3ce8a946e')
+,(52, 'a3be026391e77738c6ac56b99fafbe24')
+,(53, 'cc69fbc6a8b321d151721e5301488315')
+,(54, '183a649be310f0be119592f055bf88a3')
+,(55, '04fcaac7991b950b09ccde85f722ae5a')
+,(56, 'd6cb971fdc152e342119abfea87a3f9a')
+,(57, '3fe0552a0943a800db64a515e3456132')
+,(58, '5e5d4c23bf65e7b042530e006e3c5c97')
+,(59, 'fc9c288c9dcf397cb8891e4a4b95844b')
+,(60, '0e5bbf65fe071df9f970e6a361b7e0aa')
+,(61, '809262edac70c4cd7478c52cc10ac051')
+,(62, 'dee1020b292182161873b324d737bca2')
+,(63, '79fd9cb4324c36cc14876ec103a066f3')
+,(64, '215ddbf5986ea48bc1efe56dd648020f')
+,(65, 'dbdade9a19cf343f2cd1f4fe67a88205')
+,(66, '7232a3eb199cc05bbea98528287a99b8')
+,(67, '7a19fe8d043900138a9651864152bf5f')
+,(68, '5409d9a75b58ece638b34a9f880ff978')
+,(69, '8568eb81e378d712034c8c8e9548b01a')
+,(70, 'bc562a9c59130ebdbc02fc1bb6609c0e')
+,(71, 'cda9efd2dc0b62763adad42778247c69')
+,(72, 'caaa6b53ed9c58d7e953d9bd456cd1e4')
+,(73, 'd3800c8ae6ff24ac1cc56b48bb3ba322')
+,(74, '5530f3ad8bb1cf5d102b62fbdcf6743f')
+,(75, '46fda141cd9b4d0bfb3276dca4043a74')
+,(76, 'ed9eb4ca82214cccfb89e8084409ac23')
+,(77, '669f65763aa7c15e35e02dfc97a70bdd')
+,(78, '31f46cb39e57aafd6730c871dea25df3')
+,(79, '7786562063a703b3e3b178db2631a918')
+,(80, '36a01197e480ef30b2da09c7d25bb222')
+,(81, '642066ba24a15d733420e48546606693')
+,(82, '5e64b3e46852ad913f176a015dcdc84c')
+,(83, 'b4748f249236450b6d0ec6ce3328183b')
+,(84, 'be4e8b8e7042964d584cc4056b7b6d60')
+,(85, '1376173a04e12c802f77a7590e48117a')
+,(86, '578d81bfae69f17aa71fcd536234aa75')
+,(87, '9efd4a7ff57325b7b8e468932fcabf94')
+,(88, '57d3a01a57b0ba6fddd9ee399acab3ce')
+,(89, '94a5a78d9b05a55a28c3c0fa1ccb67c9')
+,(90, '84d4c70464b81a82acf863a9286e7a51')
+,(91, '4b8490ecefaf66becd28426b1a9e61a6')
+,(92, 'a65b406d6315ea174d4484385b40247c')
+,(93, 'a4898cac1b2afdac1b57fafc56b18a08')
+,(94, 'a6b72c5b301dbc0c1eddf6c1d14d20f8')
+,(95, 'c9a7b2cb63feab0edd54c1d29daf84ff')
+,(96, 'cd20bdb69becc716ff2a01fddc19514d')
+,(97, 'f7ed55361dbdf8ec18df4ddbaddd9eb5')
+,(98, '4d947a012963470f06b065d581c81be6')
+,(99, '3265e01989a39f9e90374c6844aa3d19')
+,(100, '1c61a6b7f740a9546f7a0c1d4bfafde9')
+,(101, '471d1735d3ed6b9e2a785d35ae0f02f6')
+,(102, '501c0c6d339a8299d39e3333e9326580')
+,(103, '7aa4d116bbed7e418a7f517e2f00da08')
+,(104, '49467b408cd48c78c1ae101179d774da')
+,(105, '0eb7aeb344ec40f7e8faec16bb9c9f66')
+,(106, 'da736b9706a9048386c9581afbc2cab6')
+,(107, 'c1023c6b48578f597bb0f07773552144')
+,(108, '302fe7a72f95998deeddd1029353c945')
+,(109, '2fa99929b831a8ed651c9551b90b51aa')
+,(110, '14523fb9fea24ba763e1305def35fbfd')
+,(111, 'ce459370b86688f3346a24015c20d329')
+,(112, '8197ba5e5c993ef9f34153a1d59d2284')
+,(113, 'cba997f55175e419d0577699c284e620')
+,(114, 'd86e9413550354984958d27564dcb5c3')
+,(115, 'adb3bf1a79717d4bcc7b6395a83ba17c')
+,(116, 'ba0a2ebf840444522de279daf22ee8f2')
+,(117, '7fb2664f110dcfe4e1e80a79867f18cf')
+,(118, '13ce7c16ed7ab060f0eed9db047befee')
+,(119, '249ca294bc324bea9f7ab2bd80b42181')
+ON DUPLICATE KEY UPDATE parola_criptata = values(parola_criptata);
+
+-- Range between 50 - 150:
+select (FLOOR(RAND()*(150-50))+50);
+update Utilizator set numar_autentificari = (FLOOR(RAND()*(150-50))+50);
+update Utilizator set numar_invitatii = (FLOOR(RAND()*(5-1))+1);
+
+select * from Utilizator;
+
+-- Range between 0 - 2 years from given base date:
+select FROM_UNIXTIME(UNIX_TIMESTAMP('2018-01-30 14:53:27') + FLOOR(0 + (RAND() * 63072000)));
+update Utilizator set invitatie_creata_la = FROM_UNIXTIME(UNIX_TIMESTAMP('2018-01-30 14:53:27') + FLOOR(0 + (RAND() * 63072000)));
+update Utilizator set ultima_autentificare = FROM_UNIXTIME(UNIX_TIMESTAMP('2020-01-30 14:53:27') + FLOOR(0 + (RAND() * 5259488)));
+
+update Utilizator set invitatie_acceptata_la = FROM_UNIXTIME(UNIX_TIMESTAMP(invitatie_creata_la) + FLOOR(180 + (RAND() * 172800)));
+update Utilizator set creat_la = FROM_UNIXTIME(UNIX_TIMESTAMP(invitatie_acceptata_la) + FLOOR(120 + (RAND() * 120)));
+update Utilizator set actualizat_la = FROM_UNIXTIME(UNIX_TIMESTAMP(ultima_autentificare) - FLOOR(172800 + (RAND() * 5259488)));
+
+--  Generate Random IP Address
+SELECT CONCAT(
+  FLOOR(2 + (RAND() * 250)), '.' ,
+  FLOOR(2 + (RAND() * 250)), '.' ,
+  FLOOR(2 + (RAND() * 250)), '.' ,
+  FLOOR(2 + (RAND() * 250))
+);
+
+alter table Utilizator modify ip_ultima_autentificare varchar (100);
+update Utilizator set ip_ultima_autentificare = CONCAT(
+  FLOOR(2 + (RAND() * 250)), '.' ,
+  FLOOR(2 + (RAND() * 250)), '.' ,
+  FLOOR(2 + (RAND() * 250)), '.' ,
+  FLOOR(2 + (RAND() * 250))
+);
+
+insert into Utilizator (id_utilizator, token_invitatie) values
+(1, 'ffO77H5RpZJMLcMJWTaMdfTrQOnEZe1j1muYAIKx6gidHechePHDe9oUSvT809mj'),
+(2, '2JuW1l7VFHcRQgUtVChvwbIuvRNxlw99WegS5I6pH2o8coAkaMewwXpk5yD6UATS'),
+(3, 'wA9nPYDVA1jZ8A2CBEwtJvo6wriopIMaswACe4AVCHlRYk5YoZwi6vSDtLeGrfff'),
+(4, 'uSSETjpGJRqLLbD7RN5oK8C0DftXuIsMv4JgsfW7hMSo2M03OuW1Yznat0VRJ2L1'),
+(5, '5i6sBmhxotACLrj0O88dFnNnBtcvugQUqWrwqkX8cf2t43Zqs7N0KNg5IgQ9oPHY'),
+(6, 'WPynFadtWaYAaxOIVawsR9dBmCWwam8W0TKFHrgj7d6Q4ZpRLu8wgXcHI0bHZwQp'),
+(7, 'l9qxBhxLnUQv8fBNjqDFlKZCIzu4koSLfkNhoG8PLQr34ROUTmMwwOg8vo23oPI6'),
+(8, '3QxMs0WEjbM5Tg4wImc8FxCcX3pSFmRHA2ptKLffmR0toUKwMnUt8PIKJuKVQW3f'),
+(9, 'Q81y3nswRzYwG6sYI33bG6gf7dvuWFVONiWZf2nRmJIuOD5n50K0DncSz7TalF0b'),
+(10, 'Nj2rx1jpvD94Y1PeoZG6wH9aJXTMEdE1RFVbMcp1dZI12zdap08OFL5BfFH6ESfw'),
+(11, '0Ut9qJ2FghhbBddaoZhfesXzSusON5cCwN7JBTQjq23TopwDL7nKOym6C9f4Rp0r'),
+(12, '5V4ivoiQpt0qH7V8YqbCRr5WjEqJXWxLsH8SGTbgNdiHZI9m55JOeo0RDiMqCjkw'),
+(13, 'RkMH4K3SnVXQbaoCWUuLEkdqkQIkE9qtVGvcH96KhbaCOPr7QIlqdAI4GUYikB3y'),
+(14, '9ThCQvrQVKG6QWXnd3qfhaRjrCctA3V2HZbWMZxgFL1E9btAbFdFqUSJtlE0WvM8'),
+(15, 'I5y6llUUddBYalko5EE7tu2ANH2peFlwUj0RxTukDJwpRu0N62ZieulRcX6Bp7My'),
+(16, 'rnMJWE291gT5lfkSXHW9ruF8dz22npeL2UFD1tygie5CVYCQsyre078HfLt4kHvo'),
+(17, 'HxVIvH902pw0XWUS8hDJLVA4UfVrmDB5Aa2LrSe22NYOtCSB2aM1WPlZl6iqRmTg'),
+(18, 'ZqZPLA7xaSWgjI2NWMDUH1JlEFh9otIkVPn6711PkvVVHoKJwGI0wQ3LYv4pfhoV'),
+(19, 'Tsw77WeJH8KTwtZ88ipOxx6BUcJGVPD1Nr4iNxKOHiFUTILshk0QZ9djmRJ3ZtUH'),
+(20, '7eehwN1xuPofp2CRjbpwU8Df4rRqK4acmTQYoIseiq2ALhCm4HZLvNPFx4K7eHTb'),
+(21, '1UcWBbB9OeqeJuCqYSO1wi8XDvi12JiZV6DuRSB1cyIttT8dPf7FA0pqUxZuC9HS'),
+(22, 'Ki7ztVgGaNUcqHGvxPaooXMcuJXj594yWI9zWHTz3X9uqZsKrEGsNBvzjJsI3ule'),
+(23, 'nrJjmniLt4beDKwRdaronnQZ5QHTvO4ujPlVkQUBeU4bOe6GH5XY89eOLsxuw915'),
+(24, 'f60tr1Chy3Wckmi9WxOU0dmTTp2leVHvfzpreH2P76YccBxGMMNnKhnLmMUdOog1'),
+(25, 'qQmKau4l3UOtpgO3aHGZVIxvyA3PFfaT0IjwapxPaKnoa1eMy6tNJgLWThkh1QLw'),
+(26, 'bQZ5HntAQQWwi9jV78xDpXSLqlP81XYOz7DzCaOcWUOUNKsDNHzpZpkXpxx1DyvL'),
+(27, 'fQUOR8hi9bLvoMUwotxi8mEydfmZX3BURLXY041BxVWPNC8IIovRyP58hXkKqZ6p'),
+(28, '37349bfNujSbgvbXPzkUNLjarVBobtaEBlVwP38Zf81LxsBsQletWziNd4KwZcvA'),
+(29, 'E8AMWzuDFmxSQnJnesuxWS1gDSTjCn1JZnPxxiU4EYeremKohCVU8L6gTBXevPdL'),
+(30, '86UIJDXZ1xwZWxULtq5PAyrcPJ2mSWT72GffgOq2XzxxTr1kTA3EJagcBCKfb1No'),
+(31, 'nJJkoueChalhQkgqjnKjHQmBtliDDgiDqNhlO8AOgz38cKSdlYztn5DJV49GuWS6'),
+(32, 'zyzmZvnrsShdrZDCqS9CA1PuMSFYMXAgHSbZYrzBsyPQv38rRLS0GIsDOgqCxQCS'),
+(33, '3HxlpVY4SWVDzk5SRKEXfdcJqZktcjFNgsnOg7xq4C0cOeImboIoCW06VRjtDZH8'),
+(34, 'tfy9pg5ChoNzd9g7cqcFoXxxJURQPPTq3E6roRxko8hezsy9jouW7FfrnhJqdNL0'),
+(35, 'UnNd2c33TvDi4HGEviOqiSe1clWz9MP6PrrQ7BEkZfTJRrokrcDPnAhbipMr4L6x'),
+(36, '4UMeffsFXzqYLxFphFmKAguHEtqCIBnZ2J3lMaA9x8Tf8kWYcaSE2I5qWBsKADXM'),
+(37, 'VaOM70SNrdi1LWRtnRb7E11Irwrg7Dh4f7MYdZOeXjLXp3UMsYM64q2GWp0ldKy9'),
+(38, 'xawHSzM731iB39TeydBLrg0BK1Bx5CzEFf11ab0xtgrK4gNfXNDs7CXKvyqYZ50k'),
+(39, 'tDlO74JQ6cB5CiaSgDlEbXeao1zGwcgbNIyl9bRokAqM0YIx8lKMoTnOu20bMv1W'),
+(40, 'NzNLVtRdYh0Xcg4o6Q5FsHNhGgzpbS7x3gqMy1zLetPHmOxNxX4pGGC49sG8AO76'),
+(41, 'ffO77H5RpZJMLcMJWTaMdfTrQOnEZe1j1muYAIKx6gidHechePHDe9oUSvT809mj'),
+(42, '2JuW1l7VFHcRQgUtVChvwbIuvRNxlw99WegS5I6pH2o8coAkaMewwXpk5yD6UATS'),
+(43, 'wA9nPYDVA1jZ8A2CBEwtJvo6wriopIMaswACe4AVCHlRYk5YoZwi6vSDtLeGrfff'),
+(44, 'uSSETjpGJRqLLbD7RN5oK8C0DftXuIsMv4JgsfW7hMSo2M03OuW1Yznat0VRJ2L1'),
+(45, '5i6sBmhxotACLrj0O88dFnNnBtcvugQUqWrwqkX8cf2t43Zqs7N0KNg5IgQ9oPHY'),
+(46, 'WPynFadtWaYAaxOIVawsR9dBmCWwam8W0TKFHrgj7d6Q4ZpRLu8wgXcHI0bHZwQp'),
+(47, 'l9qxBhxLnUQv8fBNjqDFlKZCIzu4koSLfkNhoG8PLQr34ROUTmMwwOg8vo23oPI6'),
+(48, '3QxMs0WEjbM5Tg4wImc8FxCcX3pSFmRHA2ptKLffmR0toUKwMnUt8PIKJuKVQW3f'),
+(49, 'Q81y3nswRzYwG6sYI33bG6gf7dvuWFVONiWZf2nRmJIuOD5n50K0DncSz7TalF0b'),
+(50, 'Nj2rx1jpvD94Y1PeoZG6wH9aJXTMEdE1RFVbMcp1dZI12zdap08OFL5BfFH6ESfw'),
+(51, '0Ut9qJ2FghhbBddaoZhfesXzSusON5cCwN7JBTQjq23TopwDL7nKOym6C9f4Rp0r'),
+(52, '5V4ivoiQpt0qH7V8YqbCRr5WjEqJXWxLsH8SGTbgNdiHZI9m55JOeo0RDiMqCjkw'),
+(53, 'RkMH4K3SnVXQbaoCWUuLEkdqkQIkE9qtVGvcH96KhbaCOPr7QIlqdAI4GUYikB3y'),
+(54, '9ThCQvrQVKG6QWXnd3qfhaRjrCctA3V2HZbWMZxgFL1E9btAbFdFqUSJtlE0WvM8'),
+(55, 'I5y6llUUddBYalko5EE7tu2ANH2peFlwUj0RxTukDJwpRu0N62ZieulRcX6Bp7My'),
+(56, 'rnMJWE291gT5lfkSXHW9ruF8dz22npeL2UFD1tygie5CVYCQsyre078HfLt4kHvo'),
+(57, 'HxVIvH902pw0XWUS8hDJLVA4UfVrmDB5Aa2LrSe22NYOtCSB2aM1WPlZl6iqRmTg'),
+(58, 'ZqZPLA7xaSWgjI2NWMDUH1JlEFh9otIkVPn6711PkvVVHoKJwGI0wQ3LYv4pfhoV'),
+(59, 'Tsw77WeJH8KTwtZ88ipOxx6BUcJGVPD1Nr4iNxKOHiFUTILshk0QZ9djmRJ3ZtUH'),
+(60, '7eehwN1xuPofp2CRjbpwU8Df4rRqK4acmTQYoIseiq2ALhCm4HZLvNPFx4K7eHTb'),
+(61, '1UcWBbB9OeqeJuCqYSO1wi8XDvi12JiZV6DuRSB1cyIttT8dPf7FA0pqUxZuC9HS'),
+(62, 'Ki7ztVgGaNUcqHGvxPaooXMcuJXj594yWI9zWHTz3X9uqZsKrEGsNBvzjJsI3ule'),
+(63, 'nrJjmniLt4beDKwRdaronnQZ5QHTvO4ujPlVkQUBeU4bOe6GH5XY89eOLsxuw915'),
+(64, 'f60tr1Chy3Wckmi9WxOU0dmTTp2leVHvfzpreH2P76YccBxGMMNnKhnLmMUdOog1'),
+(65, 'qQmKau4l3UOtpgO3aHGZVIxvyA3PFfaT0IjwapxPaKnoa1eMy6tNJgLWThkh1QLw'),
+(66, 'bQZ5HntAQQWwi9jV78xDpXSLqlP81XYOz7DzCaOcWUOUNKsDNHzpZpkXpxx1DyvL'),
+(67, 'fQUOR8hi9bLvoMUwotxi8mEydfmZX3BURLXY041BxVWPNC8IIovRyP58hXkKqZ6p'),
+(68, '37349bfNujSbgvbXPzkUNLjarVBobtaEBlVwP38Zf81LxsBsQletWziNd4KwZcvA'),
+(69, 'E8AMWzuDFmxSQnJnesuxWS1gDSTjCn1JZnPxxiU4EYeremKohCVU8L6gTBXevPdL'),
+(70, '86UIJDXZ1xwZWxULtq5PAyrcPJ2mSWT72GffgOq2XzxxTr1kTA3EJagcBCKfb1No'),
+(71, 'nJJkoueChalhQkgqjnKjHQmBtliDDgiDqNhlO8AOgz38cKSdlYztn5DJV49GuWS6'),
+(72, 'zyzmZvnrsShdrZDCqS9CA1PuMSFYMXAgHSbZYrzBsyPQv38rRLS0GIsDOgqCxQCS'),
+(73, '3HxlpVY4SWVDzk5SRKEXfdcJqZktcjFNgsnOg7xq4C0cOeImboIoCW06VRjtDZH8'),
+(74, 'tfy9pg5ChoNzd9g7cqcFoXxxJURQPPTq3E6roRxko8hezsy9jouW7FfrnhJqdNL0'),
+(75, 'UnNd2c33TvDi4HGEviOqiSe1clWz9MP6PrrQ7BEkZfTJRrokrcDPnAhbipMr4L6x'),
+(76, '4UMeffsFXzqYLxFphFmKAguHEtqCIBnZ2J3lMaA9x8Tf8kWYcaSE2I5qWBsKADXM'),
+(77, 'VaOM70SNrdi1LWRtnRb7E11Irwrg7Dh4f7MYdZOeXjLXp3UMsYM64q2GWp0ldKy9'),
+(78, 'xawHSzM731iB39TeydBLrg0BK1Bx5CzEFf11ab0xtgrK4gNfXNDs7CXKvyqYZ50k'),
+(79, 'tDlO74JQ6cB5CiaSgDlEbXeao1zGwcgbNIyl9bRokAqM0YIx8lKMoTnOu20bMv1W'),
+(80, 'NzNLVtRdYh0Xcg4o6Q5FsHNhGgzpbS7x3gqMy1zLetPHmOxNxX4pGGC49sG8AO76'),
+(81, 'ffO77H5RpZJMLcMJWTaMdfTrQOnEZe1j1muYAIKx6gidHechePHDe9oUSvT809mj'),
+(82, '2JuW1l7VFHcRQgUtVChvwbIuvRNxlw99WegS5I6pH2o8coAkaMewwXpk5yD6UATS'),
+(83, 'wA9nPYDVA1jZ8A2CBEwtJvo6wriopIMaswACe4AVCHlRYk5YoZwi6vSDtLeGrfff'),
+(84, 'uSSETjpGJRqLLbD7RN5oK8C0DftXuIsMv4JgsfW7hMSo2M03OuW1Yznat0VRJ2L1'),
+(85, '5i6sBmhxotACLrj0O88dFnNnBtcvugQUqWrwqkX8cf2t43Zqs7N0KNg5IgQ9oPHY'),
+(86, 'WPynFadtWaYAaxOIVawsR9dBmCWwam8W0TKFHrgj7d6Q4ZpRLu8wgXcHI0bHZwQp'),
+(87, 'l9qxBhxLnUQv8fBNjqDFlKZCIzu4koSLfkNhoG8PLQr34ROUTmMwwOg8vo23oPI6'),
+(88, '3QxMs0WEjbM5Tg4wImc8FxCcX3pSFmRHA2ptKLffmR0toUKwMnUt8PIKJuKVQW3f'),
+(89, 'Q81y3nswRzYwG6sYI33bG6gf7dvuWFVONiWZf2nRmJIuOD5n50K0DncSz7TalF0b'),
+(90, 'Nj2rx1jpvD94Y1PeoZG6wH9aJXTMEdE1RFVbMcp1dZI12zdap08OFL5BfFH6ESfw'),
+(91, '0Ut9qJ2FghhbBddaoZhfesXzSusON5cCwN7JBTQjq23TopwDL7nKOym6C9f4Rp0r'),
+(92, '5V4ivoiQpt0qH7V8YqbCRr5WjEqJXWxLsH8SGTbgNdiHZI9m55JOeo0RDiMqCjkw'),
+(93, 'RkMH4K3SnVXQbaoCWUuLEkdqkQIkE9qtVGvcH96KhbaCOPr7QIlqdAI4GUYikB3y'),
+(94, '9ThCQvrQVKG6QWXnd3qfhaRjrCctA3V2HZbWMZxgFL1E9btAbFdFqUSJtlE0WvM8'),
+(95, 'I5y6llUUddBYalko5EE7tu2ANH2peFlwUj0RxTukDJwpRu0N62ZieulRcX6Bp7My'),
+(96, 'rnMJWE291gT5lfkSXHW9ruF8dz22npeL2UFD1tygie5CVYCQsyre078HfLt4kHvo'),
+(97, 'HxVIvH902pw0XWUS8hDJLVA4UfVrmDB5Aa2LrSe22NYOtCSB2aM1WPlZl6iqRmTg'),
+(98, 'ZqZPLA7xaSWgjI2NWMDUH1JlEFh9otIkVPn6711PkvVVHoKJwGI0wQ3LYv4pfhoV'),
+(99, 'Tsw77WeJH8KTwtZ88ipOxx6BUcJGVPD1Nr4iNxKOHiFUTILshk0QZ9djmRJ3ZtUH'),
+(100, '7eehwN1xuPofp2CRjbpwU8Df4rRqK4acmTQYoIseiq2ALhCm4HZLvNPFx4K7eHTb'),
+(101, '1UcWBbB9OeqeJuCqYSO1wi8XDvi12JiZV6DuRSB1cyIttT8dPf7FA0pqUxZuC9HS'),
+(102, 'Ki7ztVgGaNUcqHGvxPaooXMcuJXj594yWI9zWHTz3X9uqZsKrEGsNBvzjJsI3ule'),
+(103, 'nrJjmniLt4beDKwRdaronnQZ5QHTvO4ujPlVkQUBeU4bOe6GH5XY89eOLsxuw915'),
+(104, 'f60tr1Chy3Wckmi9WxOU0dmTTp2leVHvfzpreH2P76YccBxGMMNnKhnLmMUdOog1'),
+(105, 'qQmKau4l3UOtpgO3aHGZVIxvyA3PFfaT0IjwapxPaKnoa1eMy6tNJgLWThkh1QLw'),
+(106, 'bQZ5HntAQQWwi9jV78xDpXSLqlP81XYOz7DzCaOcWUOUNKsDNHzpZpkXpxx1DyvL'),
+(107, 'fQUOR8hi9bLvoMUwotxi8mEydfmZX3BURLXY041BxVWPNC8IIovRyP58hXkKqZ6p'),
+(108, '37349bfNujSbgvbXPzkUNLjarVBobtaEBlVwP38Zf81LxsBsQletWziNd4KwZcvA'),
+(109, 'E8AMWzuDFmxSQnJnesuxWS1gDSTjCn1JZnPxxiU4EYeremKohCVU8L6gTBXevPdL'),
+(110, '86UIJDXZ1xwZWxULtq5PAyrcPJ2mSWT72GffgOq2XzxxTr1kTA3EJagcBCKfb1No'),
+(111, 'nJJkoueChalhQkgqjnKjHQmBtliDDgiDqNhlO8AOgz38cKSdlYztn5DJV49GuWS6'),
+(112, 'zyzmZvnrsShdrZDCqS9CA1PuMSFYMXAgHSbZYrzBsyPQv38rRLS0GIsDOgqCxQCS'),
+(113, '3HxlpVY4SWVDzk5SRKEXfdcJqZktcjFNgsnOg7xq4C0cOeImboIoCW06VRjtDZH8'),
+(114, 'tfy9pg5ChoNzd9g7cqcFoXxxJURQPPTq3E6roRxko8hezsy9jouW7FfrnhJqdNL0'),
+(115, 'UnNd2c33TvDi4HGEviOqiSe1clWz9MP6PrrQ7BEkZfTJRrokrcDPnAhbipMr4L6x'),
+(116, '4UMeffsFXzqYLxFphFmKAguHEtqCIBnZ2J3lMaA9x8Tf8kWYcaSE2I5qWBsKADXM'),
+(117, 'VaOM70SNrdi1LWRtnRb7E11Irwrg7Dh4f7MYdZOeXjLXp3UMsYM64q2GWp0ldKy9'),
+(118, 'xawHSzM731iB39TeydBLrg0BK1Bx5CzEFf11ab0xtgrK4gNfXNDs7CXKvyqYZ50k'),
+(119, 'NzNLVtRdYh0Xcg4o6Q5FsHNhGgzpbS7x3gqMy1zLetPHmOxNxX4pGGC49sG8AO76')
+ON DUPLICATE KEY UPDATE token_invitatie = values(token_invitatie);
+
+Select * from Utilizator;
+
+select * from Roluri;
+
+update Utilizator set id_rol = 4;
+-- end insert dummy data in Utilizator
+
+-- insert dummy data in Medic
+select * from Medic_temp;
+
+select * from Medic;
+
+insert into Medic (id_medic, salariu, data_angajarii, id_grad, id_specialitate)
+select id_medic, salariu, data_angajarii, grad_profesional_id, specialitate_id from Medic_temp;
+
+update Medic set id_utilizator = id_medic;
+
+select Utilizator.prenume, Utilizator.nume, Medic.salariu from Utilizator
+join Medic on Medic.id_utilizator = Utilizator.id_utilizator;
+
+
+-- Tabela Cabinet
 -- Tabela GradProfesional
 -- Tabela Medic
--- Tabela Zona
+-- Tabela Permisiuni
 -- Tabela Policlinica
--- Tabela Cabinet
+-- Tabela Roluri
+-- Tabela RoluriPermisiuni
+-- Tabela SpecialitateMedicala
+-- Tabele Utilizator
+-- Tabela Zona
+
 
 -- Tabela Program
 -- Tabela ServiciuMedical (denumire, pret)
