@@ -8,9 +8,15 @@ services:
       MYSQL_USER: root
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: medicalAppDev
+    volumes:
+      - my-datavolume:/var/lib/mysql
     ports:
       - "8306:3306" 
       # means that the MySQL running in the container at port 3306 is mapped to the localhost of the host machine at port 8306
     command: mysqld --sql_mode=""
     restart: on-failure
     # fix error Invalid default value for 'created_at' when trying to create a timestamp col 
+
+volumes:
+  my-datavolume:
+  # persist db data
