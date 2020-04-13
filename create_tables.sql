@@ -4,7 +4,7 @@ create database if not exists medicalAppDevV2
 			character set UTF8;
 use medicalAppDevV2;
 
-SET foreign_key_checks = 0;
+SET foreign_key_checks = 1;
 -- Create tables:
 
 -- Tabele platforma online:
@@ -45,7 +45,7 @@ create table Utilizator (
     parola_criptata varchar(100),
     numar_autentificari int(4),
     ultima_autentificare timestamp,
-    ip_ultima_autentificare timestamp,
+    ip_ultima_autentificare varchar(64),
     token_invitatie varchar(100),
     invitatie_creata_la timestamp,
     invitatie_trimisa_la timestamp,
@@ -63,7 +63,7 @@ create table Utilizator (
 drop table if exists SpecialitateMedicala;
 create table SpecialitateMedicala(
 	id_specialitate int(3) primary key auto_increment,
-	specialitate varchar(50),
+	denumire varchar(50),
     salariu_min int(6),
     salariu_max int(6)
 );
@@ -143,7 +143,7 @@ create table OrarMedic(
 	id_orar int(3) primary key auto_increment,
     id_medic int(3),
     id_cabinet int(3),
-    data date,
+    ziua_saptamanii enum('Lu', 'Ma', 'Mi', 'Joi', 'Vn', 'Sa', 'Du'),
     ora_inceput time,
     ora_sfarsit time,
     foreign key (id_medic) references Medic(id_medic),
@@ -223,12 +223,12 @@ drop table if exists Pacient;
 create table Pacient (
 	id_pacient int(3) primary key auto_increment,
     data_nasterii date,
-	zona_id int(3),
+	id_zona int(3),
     id_asigurare int(3),
-    id_grupa int(1),
+    id_donator int(1),
     id_utilizator int(3),
     foreign key (id_asigurare) references asigurareMedicala(id_asigurare),
-    foreign key (zona_id) references Zona(id_zona),
+    foreign key (id_zona) references Zona(id_zona),
     foreign key (id_donator) references Donator(id_donator),
     foreign key (id_utilizator) references Utilizator(id_utilizator)
 );
