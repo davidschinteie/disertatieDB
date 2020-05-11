@@ -838,7 +838,101 @@ insert into OrarMedic (id_medic, id_cabinet, ziua_saptamanii, ora_inceput, ora_s
 (106, 95, 'Vn', '16:00:00', '20:00:00'),
 (106, 95, 'Sa', '11:30:00', '15:30:00');
 
+insert into OrarMedic (id_medic, id_cabinet, ziua_saptamanii, ora_inceput) values
 
+(7, 15, 'Ma', '11:30:00'),
+(7, 15, 'Ma', '16:00:00'),
+(7, 15, 'Mi', '11:30:00'),
+(7, 15, 'Mi', '16:00:00'),
+(7, 15, 'Joi', '11:30:00'),
+(7, 15, 'Joi', '16:00:00'),
+(7, 15, 'Vn', '11:30:00'),
+(7, 15, 'Vn', '16:00:00'),
+(7, 15, 'Sa', '11:30:00'),
+
+(33, 30, 'Lu', '08:30:00'),
+(33, 30, 'Lu', '13:00:00'),
+(33, 30, 'Ma', '08:30:00'),
+(33, 30, 'Ma', '13:00:00'),
+(33, 30, 'Mi', '08:30:00'),
+(33, 30, 'Mi', '13:00:00'),
+(33, 30, 'Joi', '08:30:00'),
+(33, 30, 'Joi', '13:00:00'),
+(33, 30, 'Vn', '08:30:00'),
+(33, 30, 'Vn', '13:00:00'),
+
+(59, 32, 'Ma', '11:30:00'),
+(59, 32, 'Ma', '16:00:00'),
+(59, 32, 'Mi', '11:30:00'),
+(59, 32, 'Mi', '16:00:00'),
+(59, 32, 'Joi', '11:30:00'),
+(59, 32, 'Joi', '16:00:00'),
+(59, 32, 'Vn', '11:30:00'),
+(59, 32, 'Vn', '16:00:00'),
+(59, 32, 'Sa', '11:30:00'),
+
+(85, 72, 'Lu', '11:30:00'),
+(85, 72, 'Ma', '11:30:00'),
+(85, 72, 'Mi', '11:30:00'),
+(85, 72, 'Joi', '11:30:00'),
+(85, 72, 'Vn', '11:30:00'),
+(85, 72, 'Sa', '11:30:00'),
+
+(111, 72, 'Lu', '16:00:00'),
+(111, 72, 'Ma', '16:00:00'),
+(111, 72, 'Mi', '16:00:00'),
+(111, 72, 'Joi', '16:00:00'),
+(111, 72, 'Vn', '16:00:00');
+
+
+insert into OrarMedic (id_medic, id_cabinet, ziua_saptamanii, ora_inceput) values
+
+(26, 3, 'Lu', '08:30:00'),
+(26, 3, 'Lu', '13:00:00'),
+(26, 3, 'Ma', '08:30:00'),
+(26, 3, 'Ma', '13:00:00'),
+(26, 3, 'Mi', '08:30:00'),
+(26, 3, 'Mi', '13:00:00'),
+(26, 3, 'Joi', '08:30:00'),
+(26, 3, 'Joi', '13:00:00'),
+(26, 3, 'Vn', '08:30:00'),
+(26, 3, 'Vn', '13:00:00'),
+(26, 3, 'Sa', '09:30:00'),
+
+(52, 13, 'Lu', '11:30:00'),
+(52, 13, 'Lu', '16:00:00'),
+(52, 13, 'Ma', '11:30:00'),
+(52, 13, 'Ma', '16:00:00'),
+(52, 13, 'Mi', '11:30:00'),
+(52, 13, 'Mi', '16:00:00'),
+(52, 13, 'Joi', '11:30:00'),
+(52, 13, 'Joi', '16:00:00'),
+(52, 13, 'Vn', '11:30:00'),
+(52, 13, 'Vn', '16:00:00'),
+(52, 13, 'Sa', '11:30:00'),
+
+(78, 21, 'Lu', '08:30:00'),
+(78, 21, 'Lu', '13:00:00'),
+(78, 21, 'Ma', '08:30:00'),
+(78, 21, 'Ma', '13:00:00'),
+(78, 21, 'Mi', '08:30:00'),
+(78, 21, 'Mi', '13:00:00'),
+(78, 21, 'Joi', '08:30:00'),
+(78, 21, 'Joi', '13:00:00'),
+(78, 21, 'Vn', '08:30:00'),
+(78, 21, 'Vn', '13:00:00'),
+
+(104, 51, 'Lu', '11:30:00'),
+(104, 51, 'Lu', '16:00:00'),
+(104, 51, 'Ma', '11:30:00'),
+(104, 51, 'Ma', '16:00:00'),
+(104, 51, 'Mi', '11:30:00'),
+(104, 51, 'Mi', '16:00:00'),
+(104, 51, 'Vn', '11:30:00'),
+(104, 51, 'Vn', '16:00:00'),
+(104, 51, 'Sa', '11:30:00');
+
+-- DONE: 
 -- Tabela Cabinet
 -- Tabela GradProfesional
 -- Tabela Medic
@@ -849,18 +943,10 @@ insert into OrarMedic (id_medic, id_cabinet, ziua_saptamanii, ora_inceput, ora_s
 -- Tabela SpecialitateMedicala
 -- Tabele Utilizator
 -- Tabela Zona
-
-
-
 -- Tabela ProgramPoliclinica
 -- Tabela OrarMedic
 
--- de obtinut timpul disponibil (in ture de cate 4 ore) in policlinici pe o specialitate anume
--- de obtinut numarul de medici pe acea specialitate
--- de impartit numarul de ture la numarul de medici (ultimul medic va lua si restul impartirii)
--- de pus in calendar medicii in functie de turele lor
--- de verificat datele introduse in DB
-
+-- TO DO: 
 -- Tabela serviciuMedical
 -- Tabela AsigurareMedicala
 -- Tabela discountServMed
