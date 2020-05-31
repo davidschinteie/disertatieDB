@@ -41,7 +41,7 @@ create table Utilizator (
 	prenume varchar(50),
     email varchar(100),
     telefon varchar(20),
-	nume_utilizator varchar(25),
+	nume_utilizator varchar(50),
     parola_criptata varchar(100),
     numar_autentificari int(4),
     ultima_autentificare timestamp,
@@ -178,11 +178,10 @@ create table asigurareMedicala(
     denumire varchar(50),
     descriere varchar(250),
     pret_anual int(4),
-    pret_lunar int(3),
-    data_inceperii datetime,
-    data_ultimei_plati datetime,
-    data_urmatoarei_plati datetime,
-    procent_discount int(3)
+    pret_lunar int(3)
+    -- data_inceperii datetime,
+    -- data_ultimei_plati datetime,
+    -- data_urmatoarei_plati datetime
     -- id_asigurator_medical int(3),
     -- foreign key (id_asigurator_medical) references asiguratorMedical(id_asigurator_medical),
 );
@@ -191,20 +190,34 @@ create table asigurareMedicala(
 drop table if exists discountServMed;
 create table discountServMed(
 	id_discount int(3) primary key auto_increment,
-    id_asigurare int (3),
+    id_asigurare int(3),
     id_serviciu int(3),
+    procent_discount int(3),
     foreign key (id_asigurare) references asigurareMedicala(id_asigurare),
     foreign key (id_serviciu) references serviciuMedical(id_serviciu)
 );
 
 /*Tabela Servicii Medicale Fara Plata*/
-drop table if exists faraPlataServMed;
-create table faraPlataServMed(
-	id_fara_plata int(3) primary key auto_increment,
-    id_asigurare int (3),
-    id_serviciu int(3),
+-- drop table if exists faraPlataServMed;
+-- create table faraPlataServMed(
+-- 	id_fara_plata int(3) primary key auto_increment,
+--     id_asigurare int (3),
+--     id_serviciu int(3),
+--     foreign key (id_asigurare) references asigurareMedicala(id_asigurare),
+--     foreign key (id_serviciu) references serviciuMedical(id_serviciu)
+-- );
+
+/*Tabela Pacient*/
+drop table if exists Pacient;
+create table Pacient (
+	id_pacient int(3) primary key auto_increment,
+    data_nasterii date,
+	id_zona int(3),
+    id_asigurare int(3),
+    id_utilizator int(3),
     foreign key (id_asigurare) references asigurareMedicala(id_asigurare),
-    foreign key (id_serviciu) references serviciuMedical(id_serviciu)
+    foreign key (id_zona) references Zona(id_zona),
+    foreign key (id_utilizator) references Utilizator(id_utilizator)
 );
 
 /*Tabela Donator*/
@@ -215,22 +228,9 @@ create table Donator(
     rh enum('pozitiv','negativ'),
     celule_stem varchar(50),
     data_ultimei_donari date, 
-    numar_donari int(2)
-);
-
-/*Tabela Pacient*/
-drop table if exists Pacient;
-create table Pacient (
-	id_pacient int(3) primary key auto_increment,
-    data_nasterii date,
-	id_zona int(3),
-    id_asigurare int(3),
-    id_donator int(1),
-    id_utilizator int(3),
-    foreign key (id_asigurare) references asigurareMedicala(id_asigurare),
-    foreign key (id_zona) references Zona(id_zona),
-    foreign key (id_donator) references Donator(id_donator),
-    foreign key (id_utilizator) references Utilizator(id_utilizator)
+    numar_donari int(2),
+    id_pacient int(3),
+    foreign key (id_pacient) references Pacient(id_pacient)
 );
 
 -- Tabele programare:
@@ -244,9 +244,9 @@ create table Programare (
 	id_cabinet int(1),
 	id_serviciu int(3),
 	moment_programare datetime,
-    data_programarii datetime,
     durata time,
-    status_programare enum('activa', 'anulata', 'reprogramata'),
+    creata_la timestamp,
+    status_programare enum('activa', 'anulata', 'reprogramata', 'finalizata'),
 	foreign key (id_pacient) references Pacient(id_pacient),
 	foreign key (id_medic) references Medic(id_medic),
 	foreign key (id_cabinet) references Cabinet(id_cabinet),

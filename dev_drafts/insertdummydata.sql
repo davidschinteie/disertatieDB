@@ -708,6 +708,7 @@ update Medic set id_utilizator = id_medic;
 select Utilizator.prenume, Utilizator.nume, Medic.salariu from Utilizator
 join Medic on Medic.id_utilizator = Utilizator.id_utilizator;
 
+-- Tabela ProgramPoliclinica
 -- insert dummy data in ProgramPoliclinica
 insert into ProgramPoliclinica (id_policlinica, ziua_saptamanii, ora_inceput, ora_sfarsit) values 	
                                         (3, 'Lu', '08:00:00', '17:00:00'),
@@ -760,6 +761,7 @@ insert into ProgramPoliclinica (id_policlinica, ziua_saptamanii, ora_inceput, or
                                         (11, 'Vn', '08:00:00', '17:00:00'),
                                         (11, 'Sa', '09:00:00', '14:00:00');
 
+-- Tabela OrarMedic
 insert into OrarMedic (id_medic, id_cabinet, ziua_saptamanii, ora_inceput, ora_sfarsit) values
 (1, 5, 'Lu', '08:30:00', '12:30:00'),
 (1, 5, 'Ma', '08:30:00', '12:30:00'),
@@ -932,6 +934,209 @@ insert into OrarMedic (id_medic, id_cabinet, ziua_saptamanii, ora_inceput) value
 (104, 51, 'Vn', '16:00:00'),
 (104, 51, 'Sa', '11:30:00');
 
+-- Tabela serviciuMedical
+insert into serviciuMedical (denumire_serviciu, id_specialitate) values 
+
+('Adeverinta medicala', 1),
+('Consult alergologie', 1),
+('Interpretare analize', 1),
+('Proba respiratorie simpla', 1),
+('Test alergic prick/alergen', 1),
+
+('Consult boli infectioase', 2),
+('Interpretare analize', 2),
+('Administrare vaccin', 2),
+
+('Adeverinta medicala', 3),
+('Consult cardiologie', 3),
+('Interpretare analize', 3),
+('EKG', 3),
+('Test de efort', 3),
+
+('Adeverinta medicala', 4),
+('Consult endocrinologie', 4),
+('Interpretare analize', 4),
+('Ecografie tiroida', 4),
+('Sonoelastografie', 4),
+
+('Consult epidemiologie', 5),
+('Interpretare analize', 5),
+('Administrare vaccin', 5),
+
+('Adeverinta medicala', 6),
+('Consult gastroenterologie', 6),
+('Interpretare analize', 6),
+('Extractie endoscopica de corp strain', 6),
+('Teste de sensibilitate', 6),
+
+('Consult genetica/embriologie', 7),
+
+('Adeverinta medicala', 8),
+('Consult geriatrie', 8),
+('Interpretare analize', 8),
+('Interpretare imagistica', 8),
+
+('Adeverinta medicala', 9),
+('Consult hematologie', 9),
+('Interpretare analize', 9),
+('Evaluarea riscului de trombofilie in sarcina', 9),
+
+('Adeverinta medicala', 10),
+('Consult medicina generala', 10),
+('Interpretare analize', 10),
+('Certificat prenuptial', 10),
+('Administrare vaccin', 10),
+
+('Interpretare analize', 11),
+
+('Adeverinta medicala', 12),
+('Consult medicina generala', 12),
+('Interpretare analize', 12),
+
+('Adeverinta medicala', 13),
+('Consult medicina interna', 13),
+('EKG cu interpretare', 13),
+
+('Audiometrie tonala', 14),
+('Consult medicina generala', 14),
+('Examen clinic general', 14),
+('Interpretare analize', 14),
+('Spirometrie', 14),
+('Viziotest', 14),
+
+('Adeverinta medicala', 15),
+('Consult neurologie', 15),
+('Interpretare analize', 15),
+('Teste clinice (EDS, Scor Miastenic, UPDRS, MMSE, Reisberg)', 15),
+
+('Cataracta Multifocal', 16),
+('Consult oftamologie', 16),
+('Ecografie oculara', 16),
+('Perimetrie computerizata', 16),
+('Topografie corneana', 16),
+
+('Adeverinta medicala', 17),
+('Consult neurologie', 17),
+('Interpretare analize', 17),
+('Paracenteza', 17),
+('Recomandare tratament oncologic', 17),
+
+('Adeverinta medicala', 18),
+('Audiograma pentru tinitus', 18),
+('Interpretare analize', 18),
+('Consult ORL', 18),
+('Endoscopie nazala', 18),
+
+('Indepartare aparat gipsat', 19),
+('Consult ortopedie', 19),
+('Bandaj universal', 19),
+('Toaleta chirurgicala si pansament complex', 19),
+
+('Consult in urgenta', 20),
+('Consult pediatrie', 20),
+('Interpretare analize', 20),
+('Pulsoximetrie', 20),
+
+('Consult pneumoftiziologie', 21),
+('Proba respiratorie simpla', 21),
+('Spirometrie cu test bronhodilatator', 21),
+
+('Adeverinta medicala', 22),
+('Consult psihiatrie', 22),
+('Interpretare analize', 22),
+
+('Colangiografie', 23),
+('Interpretare analize', 23),
+('RMN hipofiza', 23),
+
+('Consult recuperare medicala', 24),
+('Interpretare analize', 24),
+('Infiltratie intraarticulara (cu substanta)', 24),
+
+('Adeverinta medicala', 25),
+('Consult reumatologie', 25),
+('Interpretare analize', 25),
+
+('Consult urologie', 26),
+('Excizie tumori chirurgical, cu sutura <2cm', 26),
+('Excizie corp strain si sutura direct (anestezie locala)', 26);
+
+
+-- Random values between 100 and 450
+update serviciuMedical set cost_serviciu = (FLOOR(RAND()*(45-10))+10)*10;
+-- Random between values for time
+update serviciuMedical set durata_minima = ELT(0.5 + RAND() * 6, '00:30:00', '00:45:00', '00:50:00', '01:00:00', '01:15:00', '01:30:00');
+-- Add 30 minutes to time
+update serviciuMedical set durata_maxima = addtime(durata_minima, 003000);
+
+-- Tabela AsigurareMedicala
+insert into asigurareMedicala (denumire, descriere, pret_anual, pret_lunar) values 
+('Standard','Gratuitate in obtinerea adeverintelor medicale si interpretarea analizelor, Acces la sfaturi medicale in cazul unei urgente, 30% discount la consultatii medicale', 59, 590),
+('Extra','Gratuitate in obtinerea adeverintelor medicale si interpretarea analizelor, Acces la sfaturi medicale in cazul unei urgente, 50% discount la consultatii medicale, 25% discount la investigatii medicale de specialitate', 99, 990),
+('Plus','Gratuitate in obtinerea adeverintelor medicale si interpretarea analizelor, Acces la sfaturi medicale in cazul unei urgente, 80% discount la consultatii medicale, 50% discount la investigatii medicale de specialitate', 169, 1690),
+('Premium','Gratuitate in obtinerea adeverintelor medicale si interpretarea analizelor, Acces la sfaturi medicale in cazul unei urgente, gratuitate la consultatii medicale, gratuitate la investigatii medicale de specialitate', 299, 2990);
+
+
+-- Tabela Donator
+insert into Donator (id_pacient)
+select id_pacient from Pacient order by rand() limit 156;
+
+select * from Donator;
+SET SQL_SAFE_UPDATES = 0;
+update Donator set grupa_sanguina = ELT(0.5 + RAND() * 8, '0_I pozitiv', '0_I negativ', 'A_II pozitiv', 'A_II negativ', 'B_III pozitiv', 'B_III negativ','AB_IV pozitiv','AB_IV negativ') where grupa_sanguina is null;
+update Donator set rh = ELT(0.5 + RAND() * 2, 'pozitiv', 'negativ');
+
+ALTER TABLE Donator drop column celule_stem;
+INSERT INTO `Donator` (`id_donator`,`data_ultimei_donari`) VALUES (1,"2019-06-08"),(2,"2017-06-07"),(3,"2019-08-24"),(4,"2019-06-04"),(5,"2018-01-09"),(6,"2015-05-14"),(7,"2020-12-18"),(8,"2012-12-10"),(9,"2015-08-27"),(10,"2018-10-05"),(11,"2020-07-26"),(12,"2018-11-01"),(13,"2019-06-14"),(14,"2019-11-23"),(15,"2018-02-15"),(16,"2015-05-25"),(17,"2013-01-18"),(18,"2013-07-17"),(19,"2019-07-25"),(20,"2018-01-21"),(21,"2012-09-29"),(22,"2012-08-16"),(23,"2019-03-15"),(24,"2016-01-29"),(25,"2012-05-19"),(26,"2014-06-19"),(27,"2018-05-04"),(28,"2017-07-11"),(29,"2013-09-19"),(30,"2012-05-28"),(31,"2017-10-09"),(32,"2013-05-28"),(33,"2017-02-10"),(34,"2016-11-20"),(35,"2017-05-23"),(36,"2019-04-03"),(37,"2015-12-13"),(38,"2012-07-26"),(39,"2021-04-16"),(40,"2016-10-17"),(41,"2018-10-09"),(42,"2015-03-03"),(43,"2020-07-06"),(44,"2012-09-15"),(45,"2017-01-09"),(46,"2019-08-10"),(47,"2012-09-12"),(48,"2016-08-10"),(49,"2015-01-02"),(50,"2018-08-27"),(51,"2015-01-08"),(52,"2014-08-21"),(53,"2016-06-14"),(54,"2020-10-31"),(55,"2017-04-22"),(56,"2017-11-14"),(57,"2020-02-17"),(58,"2016-03-31"),(59,"2018-08-19"),(60,"2013-12-24"),(61,"2012-08-03"),(62,"2017-05-28"),(63,"2014-07-16"),(64,"2017-11-12"),(65,"2014-10-25"),(66,"2020-10-22"),(67,"2021-04-05"),(68,"2013-11-28"),(69,"2015-05-03"),(70,"2020-08-25"),(71,"2012-09-16"),(72,"2021-05-26"),(73,"2019-12-05"),(74,"2021-04-19"),(75,"2018-12-27"),(76,"2012-05-15"),(77,"2019-10-29"),(78,"2015-08-02"),(79,"2012-09-21"),(80,"2013-08-01"),(81,"2016-02-19"),(82,"2019-01-26"),(83,"2019-08-21"),(84,"2016-11-28"),(85,"2021-01-01"),(86,"2017-12-28"),(87,"2017-12-01"),(88,"2014-04-01"),(89,"2014-01-29"),(90,"2012-11-06"),(91,"2019-05-04"),(92,"2019-01-06"),(93,"2014-05-31"),(94,"2018-03-16"),(95,"2014-01-09"),(96,"2021-03-15"),(97,"2016-11-20"),(98,"2021-03-26"),(99,"2014-03-27"),(100,"2017-07-11"),(101,"2014-07-07"),(102,"2019-10-10"),(103,"2019-02-15"),(104,"2013-02-03"),(105,"2012-08-09"),(106,"2017-08-31"),(107,"2018-04-22"),(108,"2019-07-06"),(109,"2016-07-04"),(110,"2014-03-03"),(111,"2013-05-12"),(112,"2014-01-03"),(113,"2019-06-11"),(114,"2016-10-27"),(115,"2019-05-16"),(116,"2018-02-18"),(117,"2014-05-10"),(118,"2013-07-10"),(119,"2017-06-07"),(120,"2012-12-16"),(121,"2015-05-03"),(122,"2013-08-24"),(123,"2020-05-08"),(124,"2018-05-06"),(125,"2012-11-27"),(126,"2012-09-08"),(127,"2015-06-18"),(128,"2020-08-16"),(129,"2020-11-30"),(130,"2015-09-15"),(131,"2017-05-09"),(132,"2013-02-16"),(133,"2015-10-24"),(134,"2019-03-12"),(135,"2018-12-08"),(136,"2016-10-03"),(137,"2015-06-13"),(138,"2016-03-28"),(139,"2016-04-06"),(140,"2014-12-02"),(141,"2014-01-18"),(142,"2016-12-05"),(143,"2020-05-27"),(144,"2015-04-20"),(145,"2013-03-18"),(146,"2016-03-16"),(147,"2017-04-09"),(148,"2021-01-13"),(149,"2020-02-10"),(150,"2020-11-20"),(151,"2016-09-19"),(152,"2018-08-27"),(153,"2019-03-05"),(154,"2015-07-23"),(155,"2016-11-06"),(156,"2019-01-17") 
+on duplicate key update data_ultimei_donari = values(data_ultimei_donari);
+
+SELECT FLOOR((RAND()*4) + 1);
+update Donator set numar_donari = FLOOR((RAND()*40) + 1) where DATEDIFF(NOW(),Donator.data_ultimei_donari) > 3000;
+
+use sda_scd_v3;
+
+insert into serviciuMedical(denumire_serviciu, cost_serviciu) select specializare, floor(rand()*10)*10 + 150 from SpecializareMedic;
+insert into serviciuMedical(denumire_serviciu) select distinct tipul_consultatiei from MedicPrimar;
+update serviciuMedical set cost_serviciu = floor(rand()*10)*10 + 150 where cost_serviciu is null;
+select * from serviciuMedical;
+
+select * from medic_temp;
+select * from viz_temp;
+
+select * from programare order by id_medic;
+
+insert into programare(id_pacient, id_medic, moment_programare) select id_pacient, id_medic, concat(substr(viz_temp.Data_viz,7,4),'-',
+									substr(viz_temp.Data_viz,4,2),'-',
+									substr(viz_temp.Data_viz,1,2),' ',Ora_intr) from viz_temp;
+                                    
+update programare inner join atasat_la 
+	set programare.id_cabinet=atasat_la.id_cabinet
+	where programare.id_medic=atasat_la.id_medic;
+    
+select * from tipcabinet;
+
+select tipulCabinetului from tipCabinet inner join tipCabinet on ;
+
+update programare inner join serviciuMedical inner join tipCabinet inner join Cabinet
+	set programare.id_serviciu = serviciuMedical.id_serviciu
+    where serviciuMedical.denumire_serviciu = tipCabinet.tipulCabinetului 
+    and cabinet.id_cabinet = programare.id_cabinet;
+
+/*insert into serviciuMedical(denumire_serviciu, cost_serviciu) select concat('consultatie ', specializare), floor(rand()*10)*10 + 150 from SpecializareMedic;
+insert into serviciuMedical(denumire_serviciu) select distinct concat('consultatie ', tipul_consultatiei) from MedicPrimar;
+update serviciuMedical set cost_serviciu = floor(rand()*10)*10 + 150 where cost_serviciu is null;
+select * from serviciuMedical;
+truncate serviciuMedical;*/
+
+update Programare set data_programarii = date_add(data_programarii, interval 10 year);
+update Programare set moment_programare = date_sub(data_programarii, interval 3 month);
+update Programare set durata = ELT(0.5 + RAND() * 6, '00:30:00', '00:45:00', '00:50:00', '01:00:00', '01:15:00', '01:30:00');
+
+alter table Programare modify status_programare enum('activa', 'anulata', 'reprogramata', 'finalizata');
+
+update Programare set status_programare = ELT(0.5 + RAND() * 4, 'anulata', 'finalizata', 'finalizata', 'finalizata');
+
+
 -- DONE: 
 -- Tabela Cabinet
 -- Tabela GradProfesional
@@ -945,14 +1150,13 @@ insert into OrarMedic (id_medic, id_cabinet, ziua_saptamanii, ora_inceput) value
 -- Tabela Zona
 -- Tabela ProgramPoliclinica
 -- Tabela OrarMedic
-
--- TO DO: 
 -- Tabela serviciuMedical
 -- Tabela AsigurareMedicala
 -- Tabela discountServMed
--- Tabela faraPlataServMed
--- Tablea Donator
 -- Tabela Pacient
+-- Tablea Donator
 -- Tabela Programare
+
+-- TO DO: 
 -- Tablea Notificari
 -- Tablea Notificari_Programare
