@@ -1,6 +1,4 @@
-drop database if exists medicalAppDevV2;
-
-create database if not exists medicalAppDevV2 
+create database if not exists medicalAppDevTEST 
 			character set UTF8;
 use medicalAppDevV2;
 
@@ -143,7 +141,7 @@ create table OrarMedic(
 	id_orar int(3) primary key auto_increment,
     id_medic int(3),
     id_cabinet int(3),
-    ziua_saptamanii enum('Lu', 'Ma', 'Mi', 'Joi', 'Vn', 'Sa', 'Du'),
+    ziua_saptamanii enum('Luni', 'Marti', 'Miercuri', 'Joi', 'Vineri', 'Sambata', 'Duminica'),
     ora_inceput time,
     ora_sfarsit time,
     foreign key (id_medic) references Medic(id_medic),
@@ -225,8 +223,8 @@ drop table if exists Donator;
 create table Donator(
 	id_donator int(3) primary key auto_increment,
 	grupa_sanguina enum('0_I pozitiv','0_I negativ','A_II pozitiv','A_II negativ','B_III pozitiv','B_III negativ','AB_IV pozitiv','AB_IV negativ'),
-    rh enum('pozitiv','negativ'),
-    celule_stem varchar(50),
+    -- rh enum('pozitiv','negativ'),
+	-- celule_stem varchar(50),
     data_ultimei_donari date, 
     numar_donari int(2),
     id_pacient int(3),

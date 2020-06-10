@@ -62,7 +62,7 @@ CREATE TABLE `Donator` (
   PRIMARY KEY (`id_donator`),
   KEY `id_pacient` (`id_pacient`),
   CONSTRAINT `Donator_ibfk_1` FOREIGN KEY (`id_pacient`) REFERENCES `Pacient` (`id_pacient`)
-) ENGINE=InnoDB AUTO_INCREMENT=256 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=157 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -555,6 +555,33 @@ LOCK TABLES `serviciuMedical` WRITE;
 INSERT INTO `serviciuMedical` VALUES (1,'Adeverinta medicala',280,'00:30:00','01:00:00',1),(2,'Consult alergologie',190,'00:30:00','01:00:00',1),(3,'Interpretare analize',390,'00:45:00','01:15:00',1),(4,'Proba respiratorie simpla',230,'00:30:00','01:00:00',1),(5,'Test alergic prick/alergen',250,'01:30:00','02:00:00',1),(6,'Consult boli infectioase',430,'01:30:00','02:00:00',2),(7,'Interpretare analize',290,'01:30:00','02:00:00',2),(8,'Administrare vaccin',390,'00:30:00','01:00:00',2),(9,'Adeverinta medicala',280,'00:45:00','01:15:00',3),(10,'Consult cardiologie',160,'01:30:00','02:00:00',3),(11,'Interpretare analize',180,'00:45:00','01:15:00',3),(12,'EKG',350,'00:50:00','01:20:00',3),(13,'Test de efort',430,'00:30:00','01:00:00',3),(14,'Adeverinta medicala',280,'00:45:00','01:15:00',4),(15,'Consult endocrinologie',390,'00:45:00','01:15:00',4),(16,'Interpretare analize',300,'00:50:00','01:20:00',4),(17,'Ecografie tiroida',260,'01:00:00','01:30:00',4),(18,'Sonoelastografie',270,'00:50:00','01:20:00',4),(19,'Consult epidemiologie',140,'01:00:00','01:30:00',5),(20,'Interpretare analize',160,'00:45:00','01:15:00',5),(21,'Administrare vaccin',290,'01:30:00','02:00:00',5),(22,'Adeverinta medicala',160,'00:50:00','01:20:00',6),(23,'Consult gastroenterologie',180,'01:00:00','01:30:00',6),(24,'Interpretare analize',330,'01:30:00','02:00:00',6),(25,'Extractie endoscopica de corp strain',330,'01:00:00','01:30:00',6),(26,'Teste de sensibilitate',220,'00:50:00','01:20:00',6),(27,'Consult genetica/embriologie',350,'01:00:00','01:30:00',7),(28,'Adeverinta medicala',290,'00:45:00','01:15:00',8),(29,'Consult geriatrie',320,'00:45:00','01:15:00',8),(30,'Interpretare analize',270,'01:15:00','01:45:00',8),(31,'Interpretare imagistica',300,'00:30:00','01:00:00',8),(32,'Adeverinta medicala',230,'01:30:00','02:00:00',9),(33,'Consult hematologie',170,'01:15:00','01:45:00',9),(34,'Interpretare analize',420,'01:30:00','02:00:00',9),(35,'Evaluarea riscului de trombofilie in sarcina',440,'01:00:00','01:30:00',9),(36,'Adeverinta medicala',140,'01:15:00','01:45:00',10),(37,'Consult medicina generala',350,'00:30:00','01:00:00',10),(38,'Interpretare analize',160,'01:00:00','01:30:00',10),(39,'Certificat prenuptial',380,'00:30:00','01:00:00',10),(40,'Administrare vaccin',260,'01:15:00','01:45:00',10),(41,'Interpretare analize',420,'01:30:00','02:00:00',11),(42,'Adeverinta medicala',190,'01:30:00','02:00:00',12),(43,'Consult medicina generala',270,'01:15:00','01:45:00',12),(44,'Interpretare analize',350,'01:30:00','02:00:00',12),(45,'Adeverinta medicala',140,'01:15:00','01:45:00',13),(46,'Consult medicina interna',250,'00:50:00','01:20:00',13),(47,'EKG cu interpretare',380,'00:50:00','01:20:00',13),(48,'Audiometrie tonala',340,'00:50:00','01:20:00',14),(49,'Consult medicina generala',130,'01:00:00','01:30:00',14),(50,'Examen clinic general',250,'00:45:00','01:15:00',14),(51,'Interpretare analize',390,'00:50:00','01:20:00',14),(52,'Spirometrie',400,'01:30:00','02:00:00',14),(53,'Viziotest',400,'01:15:00','01:45:00',14),(54,'Adeverinta medicala',330,'01:15:00','01:45:00',15),(55,'Consult neurologie',380,'00:50:00','01:20:00',15),(56,'Interpretare analize',440,'00:30:00','01:00:00',15),(57,'Teste clinice (EDS, Scor Miastenic, UPDRS, MMSE, Reisberg)',270,'00:30:00','01:00:00',15),(58,'Cataracta Multifocal',300,'01:30:00','02:00:00',16),(59,'Consult oftamologie',260,'01:00:00','01:30:00',16),(60,'Ecografie oculara',270,'00:30:00','01:00:00',16),(61,'Perimetrie computerizata',160,'01:30:00','02:00:00',16),(62,'Topografie corneana',230,'00:45:00','01:15:00',16),(63,'Adeverinta medicala',220,'00:30:00','01:00:00',17),(64,'Consult neurologie',330,'00:30:00','01:00:00',17),(65,'Interpretare analize',200,'00:30:00','01:00:00',17),(66,'Paracenteza',250,'00:50:00','01:20:00',17),(67,'Recomandare tratament oncologic',200,'00:50:00','01:20:00',17),(68,'Adeverinta medicala',180,'01:15:00','01:45:00',18),(69,'Audiograma pentru tinitus',200,'01:00:00','01:30:00',18),(70,'Interpretare analize',370,'01:00:00','01:30:00',18),(71,'Consult ORL',120,'00:50:00','01:20:00',18),(72,'Endoscopie nazala',420,'00:45:00','01:15:00',18),(73,'Indepartare aparat gipsat',230,'00:30:00','01:00:00',19),(74,'Consult ortopedie',170,'01:30:00','02:00:00',19),(75,'Bandaj universal',400,'00:30:00','01:00:00',19),(76,'Toaleta chirurgicala si pansament complex',330,'00:50:00','01:20:00',19),(77,'Consult in urgenta',390,'00:50:00','01:20:00',20),(78,'Consult pediatrie',140,'00:50:00','01:20:00',20),(79,'Interpretare analize',140,'01:15:00','01:45:00',20),(80,'Pulsoximetrie',200,'00:50:00','01:20:00',20),(81,'Consult pneumoftiziologie',130,'01:30:00','02:00:00',21),(82,'Proba respiratorie simpla',290,'01:15:00','01:45:00',21),(83,'Spirometrie cu test bronhodilatator',280,'01:00:00','01:30:00',21),(84,'Adeverinta medicala',440,'01:30:00','02:00:00',22),(85,'Consult psihiatrie',220,'00:50:00','01:20:00',22),(86,'Interpretare analize',370,'01:00:00','01:30:00',22),(87,'Colangiografie',400,'01:30:00','02:00:00',23),(88,'Interpretare analize',110,'01:00:00','01:30:00',23),(89,'RMN hipofiza',300,'00:45:00','01:15:00',23),(90,'Consult recuperare medicala',380,'01:15:00','01:45:00',24),(91,'Interpretare analize',190,'01:30:00','02:00:00',24),(92,'Infiltratie intraarticulara (cu substanta)',420,'01:00:00','01:30:00',24),(93,'Adeverinta medicala',390,'01:30:00','02:00:00',25),(94,'Consult reumatologie',240,'01:00:00','01:30:00',25),(95,'Interpretare analize',290,'00:45:00','01:15:00',25),(96,'Consult urologie',260,'00:50:00','01:20:00',26),(97,'Excizie tumori chirurgical, cu sutura <2cm',370,'01:15:00','01:45:00',26),(98,'Excizie corp strain si sutura direct (anestezie locala)',270,'00:45:00','01:15:00',26);
 /*!40000 ALTER TABLE `serviciuMedical` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Table structure for table `viz_temp`
+--
+
+DROP TABLE IF EXISTS `viz_temp`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `viz_temp` (
+  `Data_viz` varchar(25) DEFAULT NULL,
+  `Ora_intr` time DEFAULT NULL,
+  `Nume_pacient` varchar(25) DEFAULT NULL,
+  `Prenume_pacient` varchar(50) DEFAULT NULL,
+  `Nume_medic` varchar(25) DEFAULT NULL,
+  `Prenume_medic` varchar(50) DEFAULT NULL,
+  `Cabinet` varchar(25) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `viz_temp`
+--
+
+LOCK TABLES `viz_temp` WRITE;
+/*!40000 ALTER TABLE `viz_temp` DISABLE KEYS */;
+/*!40000 ALTER TABLE `viz_temp` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -565,4 +592,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-05-30 13:21:56
+-- Dump completed on 2020-06-04 19:56:24
